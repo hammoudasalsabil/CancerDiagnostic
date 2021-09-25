@@ -1,0 +1,72 @@
+// ul {
+//     list-style-type: none;
+//     margin: 0;
+//     padding: 0;
+//     overflow: hidden;
+//     background-color: #76daff;
+//   }
+  
+//   li {
+//     float: left;
+//   }
+  
+//   li a {
+//     display: block;
+//     color: white;
+//     text-align: center;
+//     padding: 14px 16px;
+//     text-decoration: none;
+//   }
+  
+//   li a:hover {
+//     background-color: rgba(17, 17, 17, 0.808);
+//   }
+
+//   .btnconx{
+// margin-left:69%;
+//   }
+//   .btnins{
+//     margin-left: 2%;
+//   }
+
+
+
+
+  //
+  .spacer {
+    flex: 1;
+  }
+
+  .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    background-color:#13364f;
+    font-family: serif;
+  }
+
+  .toolbar img {
+    margin: 0 16px;
+  }
+
+  .myButton {
+    font-size: 16px;
+    cursor: pointer;
+    transition: 256ms all;
+    font-weight: bold;
+    color: white;
+  }
+  .myButton:hover {
+    color: white;
+    background-color: rgb(4, 170, 109);
+  }
+  .buttDiag{
+    color: white;
+    font-size: large;
+  }

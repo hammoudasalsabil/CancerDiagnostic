@@ -1,0 +1,46 @@
+
+<div class="contentcenter" role="main">
+  <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+    <div class="imgcontainer">
+      <img src="/assets/images/doctoricon.jpg"  alt="Avatar" class="avatar">
+    </div>
+
+    <div class="containertop">
+      <label for="uname"><b>email</b></label><br>
+      <input type="email" placeholder="Enter email"  formControlName  = "email" name="username" required>
+<br>
+      <label for="psw"><b>Password</b></label><br>
+      <input type="password" placeholder="Enter Password" formControlName  = "password" name="password" required>
+          <br>
+      <button type="submit"  >Login</button><br>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="containerbuttom" style="background-color:#f1f1f1">
+      <button type="button" class="cancelbtn">Cancel</button> 
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+
+  </form>
+</div>
+
+
+
+
+
+<!-- 
+  
+  
+  
+   <div>
+      <label for="username"><b>Username</b></label>
+      <input type="text" formControlName  = "Username">
+    </div>
+      
+    <div>
+      <label for="password"><b>Password</b></label>
+      <input type="password" formControlName  = "Password">
+    </div>
+      <button type="submit">Login</button> -->

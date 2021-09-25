@@ -1,0 +1,56 @@
+<div class="editpastient">
+<h1 class="fonttext d-flex justify-content-center"> update Patient</h1>
+<br>
+<br>
+    <form>
+  <div class="form-group row">
+    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">First Name</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control form-control-lg" id="colFormLabelLg">
+    </div>
+  </div>
+  <br>
+
+<div class="form-group row">
+    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">Last Name</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control form-control-lg" id="colFormLabelLg">
+    </div>
+  </div>
+  <br>
+
+  <div class="form-group row">
+    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">Type Cancer</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control form-control-lg" id="colFormLabelLg" >
+    </div>
+  </div>
+  <br>
+
+<div class="form-group row">
+    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">Phone</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control form-control-lg" id="colFormLabelLg">
+    </div>
+  </div>
+  <br>
+
+<div class="form-group row">
+    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">City</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control form-control-lg" id="colFormLabelLg">
+    </div>
+  </div>
+</form>
+<div class="buttonGroupe">
+    <button type="submit"
+        class="btn ButtonCancel btn-sm marginR fonttext"   style="margin-left:200;"
+        [routerLink]="['/patients']">
+        <span>Cancel</span>
+    </button>
+    <button type="submit"
+        class="btn Buttonedit btn-sm fonttext"   style="margin-left:200;"
+        [routerLink]="['/patients']">
+        <span>Edit</span>
+    </button>
+</div>

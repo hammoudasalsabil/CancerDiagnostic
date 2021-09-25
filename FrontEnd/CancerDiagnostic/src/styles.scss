@@ -1,0 +1,170 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.content {
+    display: flex;
+    padding: 10% ;
+    background-color:white;
+  }
+
+  .contentcenter {
+    display: flex;
+    margin: 0px auto 0px;
+    padding: 10% ;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+  }
+  .marginR{
+    margin-right: 10px;
+  }
+  .marginT{
+    margin-top: 10px;
+  }
+  .marginTitle{
+    margin-top: 70px;
+  }
+  .fonttext{
+    font-family: serif;
+  }
+  .body{
+    margin-top: 50px;
+  background-image: url('/assets/images/imgprofil.png');
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  //background-size: contain;
+}
+.bodydoc{
+  margin-top: 50px;
+background-image: url('/assets/images/imgprofil.png');
+padding: 13px 0px 0px 20px;
+background-repeat: no-repeat;
+background-attachment: fixed;  
+height:550px;
+//background-size: contain;
+}
+
+.buttonUpd{
+  background-color: #2fb45a;
+  //margin-right: 10px;
+  color: white;
+}
+.buttonview{
+  background-color: #76daff;
+}
+
+.thead{
+  background-color: #13364f;
+  color: white;
+  }
+.colorBlue{
+  color: #13364f;
+}
+//   .Buttonedit{
+//     color: white;
+//     background-color: rgb(4, 170, 109);
+// }
+// .ButtonCancel{
+//     color: white;
+//     background-color: rgb(146, 148, 147);
+// }
+.buttonBack{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 11px;
+  color: tomato;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  border: 2px solid tomato;
+  padding: 8px 55px;
+  border-radius: 30px;
+  background: tomato;
+  color: #fff;
+}
+.buttonBack:hover{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 11px;
+  color: rgba(255, 99, 71, 0.616);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  border: 2px solid tomato;
+  padding: 8px 55px;
+  border-radius: 30px;
+  background: rgba(255, 99, 71, 0.418);
+  color: #fff;
+}
+
+.buttonDiag{
+  // margin-top: 50px;
+  // margin-bottom: 50px;
+  font-size: 11px;
+  color: rgb(4, 170, 109);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  border: 2px solid rgb(4, 170, 109);
+  padding: 8px 55px;
+  border-radius: 30px;
+  background: rgb(4, 170, 109);
+  color: #fff;
+}
+.buttonDiag:hover{
+  // margin-top: 50px;
+  // margin-bottom: 50px;
+  font-size: 11px;
+  color: rgba(4, 170, 109, 0.315);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  border: 2px solid rgb(4, 170, 109);
+  padding: 8px 55px;
+  border-radius: 30px;
+  background: rgba(12, 150, 99, 0.315);
+  color: #fff;
+}
+.buttonAccepter{
+  // margin-top: 50px;
+  // margin-bottom: 50px;
+  font-size: 11px;
+  color: #087ea8;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  border: 2px solid #087ea8;;
+  padding: 8px 55px;
+  border-radius: 30px;
+  background: #087ea8;
+  color: #fff;
+}
+.buttonAccepter:hover{
+  // margin-top: 50px;
+  // margin-bottom: 50px;
+  font-size: 11px;
+  color: #087ea87d;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  border: 2px solid #087ea8;;
+  padding: 8px 55px;
+  border-radius: 30px;
+  background: #087ea87d;
+  color: #fff;
+}
+

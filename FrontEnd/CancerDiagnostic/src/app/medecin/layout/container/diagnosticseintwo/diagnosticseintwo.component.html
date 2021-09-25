@@ -1,0 +1,31 @@
+<div class="diagSien">
+    <div class="row">
+        <div class="col-sm-7">  
+            <h1 class="fonttext d-flex justify-content-center">Diagnostic</h1>
+            
+            <form class="form">
+                <div class="form-group">
+
+                    <label class="fonttext">Echo_Mammographie</label>
+                    <form>
+                        <input type = "file" name = "fileupload" accept = "image/*" />
+                    </form><br>
+                        
+                    <label class="fonttext">CA 15-3</label>
+                    <form>
+                        <input type = "file" name = "fileupload" accept = "image/*" />
+                    </form><br>
+                </div>
+            </form>
+            <div class="groupbutt">
+                <button class="fonttext buttonDiag marginR" (click)="resultat()" >Result</button>
+                <button class="fonttext buttonBack" [routerLink]="['/patientsView']">Back</button>
+            </div>
+        </div>
+        <div class="col-sm-5">
+            <div *ngIf="result">
+                <app-resultatdiagnosticseintow></app-resultatdiagnosticseintow>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+<div class="diagSien">
+    <h1 class="fonttext d-flex justify-content-center">Brain Diagnosis</h1>
+    <form class="form">
+        <div class="form-group">
+            <label class="fonttext">Age</label>
+            <input class="form-control" type="text" ><br>
+            
+            <label class="fonttext">Headache</label>
+            <input class="form-control" type="text" ><br>
+            
+            <label class="fonttext">Vomiting</label>
+            <input class="form-control" type="text" ><br>
+            
+            <label class="fonttext">Cognitive Disorders</label>
+            <input class="form-control" type="text" ><br>
+            
+            <label class="fonttext">Epileptic crisis</label>
+            <input class="form-control" type="text" ><br>
+            
+        </div>
+        
+    </form>
+    <div class="form">
+        <button class="fonttext buttonDiag marginR" (click)="resultat()" >Result</button>
+        <button class="fonttext buttonBack" [routerLink]="['/patientsView']">Back</button>
+    </div>
+    <div *ngIf="result">
+        <app-resultatdiagnosticcerveauone></app-resultatdiagnosticcerveauone>
+    </div>
+</div>

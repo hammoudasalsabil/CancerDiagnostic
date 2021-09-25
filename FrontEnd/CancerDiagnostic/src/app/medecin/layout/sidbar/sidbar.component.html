@@ -1,0 +1,35 @@
+<!-- -->
+<div class="bodyc row">
+<!-- <span class="success text-center">Administrator</span>
+<button class="btn success" [routerLink]="['/admin']">profile</button>
+<button class="btn success" [routerLink]="['doctor']">doctor</button>
+<button class=" btn notification" [routerLink]="['notification']">
+  <span>notification</span>
+  <span class="badge">3</span>
+</button>  -->
+
+<div class="background"></div>
+
+<div class="outer-div">
+  <div class="inner-div">
+    <div class="front">
+      <div class="front__bkg-photo"></div>
+      <div class="front__face-photo"> <img src="/assets/images/doctoricon.jpg"  alt="Avatar" class="avatar"></div>
+      <div class="front__text">
+        <h3 class="front__text-header">{{user.username}}</h3>
+        <p class="front__text-para"><i class="fas fa-map-marker-alt front-icons"></i>{{user.email}}</p>
+        
+        <!--<span class="front__text-hover">Hover to Find Me</span> -->
+      </div>
+    </div>
+    <div class="back">
+      <div class="social-media-wrapper">
+        <button class="buttonSidbar " [routerLink]="['/medecin']">profile</button><br>
+        <button class="buttonSidbar" [routerLink]="['patients']">Patients</button><br>
+        <button class=" btn buttonSidbar" [routerLink]="['rules']">rules</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>

@@ -1,0 +1,45 @@
+<div class="diagSien">
+    <h1 class="fonttext d-flex justify-content-center">Diagnostic</h1>
+    <form class="form">
+        <div class="form-group">
+            <label class="fonttext">Age</label>
+            <input class="form-control" type="text" ><br>
+            
+            <label class="fonttext">Maternity</label>
+            <input class="form-control" type="text" ><br>
+            
+            <label class="fonttext">Contraception</label>
+            <input class="form-control" type="text" ><br>
+            
+            <label class="fonttext">Antecedent_F</label>
+            <input class="form-control" type="text" ><br>
+            
+            <label class="fonttext">Antecedent</label>
+            <input class="form-control" type="text" ><br>
+            
+            <label class="fonttext">Cycle</label>
+            <input class="form-control" type="text" ><br>
+        </div>
+        <div class="form-group">
+            <label class="fonttext">Sien</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+        </div>
+        <div class="form-group">
+            <label class="fonttext">Date</label>
+            <input class="form-control" type="Date" >
+        </div>
+    </form>
+    <div class="form">
+        <button class="fonttext buttonDiag marginR" (click)="resultat()" >Result</button>
+        <button class="fonttext buttonBack" [routerLink]="['/patientsView']">Back</button>
+    </div>
+    <div *ngIf="result">
+        <app-resultatdiagnosticseinone></app-resultatdiagnosticseinone>
+    </div>
+</div>

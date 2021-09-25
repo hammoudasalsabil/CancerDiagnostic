@@ -1,0 +1,48 @@
+<!--
+<ul>
+  <li><a class="active" href="#home">ACCUEIL</a></li>
+  <li class='btnconx'><a href="#contact">SE CONNECTER</a></li>
+  <li class='btnins'><a [routerLink]="['/inscription']">INSCRIPTION</a></li>
+</ul>
+-->
+
+<!--
+<ng-template #ContentCommentList let-modal let-c="close" let-d="dismiss">
+    
+    <button type="button" class="close" aria-label="Close">
+        <i class="fa fa-close text-danger"></i>
+    </button>
+    
+</ng-template>-->
+<div class="toolbar" role="banner">
+  <img
+    width="40"
+    alt="Angular Logo"
+    src="/assets/images/logo.png" 
+  />
+  <button class="btn buttDiag btn-sm fonttext" [routerLink]="['']"> Diagnostic Cancer</button>
+    <div class="spacer">
+     </div>
+     <button type="submit"
+      class="btn myButton btn-sm fonttext"   style="margin-left:200;"
+      [routerLink]="['/Contact']" *ngIf="!isAuthenticated">
+      <span>Contact</span>
+     </button>
+      <button type="submit"
+        class="btn myButton btn-sm fonttext"   style="margin-left:200;"
+        [routerLink]="['Doctor']" *ngIf="isAuthenticated">
+      <span>{{user.username}}</span>
+     </button>
+      <button type="submit"
+        class="btn myButton btn-sm"   style="margin-left:200;"
+        (click)="onLogout()"  *ngIf="isAuthenticated">
+      <span>logout</span>
+     </button>
+    
+
+      <button type="submit"
+      class="btn myButton btn-sm fonttext"   style="margin-left:200;"
+      [routerLink]="['inscription']" *ngIf="!isAuthenticated">
+      <span>Login</span>
+     </button>
+</div>

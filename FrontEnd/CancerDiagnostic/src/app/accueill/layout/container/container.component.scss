@@ -1,0 +1,138 @@
+
+// .bg{
+//     background-color: #131417;
+//     width: 100%;
+//     height: 100%;
+// }
+
+// @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500');
+
+// :root {
+// 	font-size: 16px;
+// }
+
+// section {
+// 	font-family: 'Quicksand';
+// 	margin: 0 auto;
+// 	max-width: 700px;
+// 	width: 100%;
+// }
+
+// strong { font-weight: bold; }
+
+// h1 {
+// 	font-size: 3rem;
+// 	margin: 1rem;
+// 	font-weight: bold;
+// }
+
+// .grid {
+// 	display: flex;
+// 	flex-wrap: wrap;
+// 	justify-content: space-around;
+// 	width: 100%;
+	
+// 	figure {
+// 		margin: 1rem;
+// 		position: relative;
+		
+// 		figcaption {
+// 			background: rgba(250,250,250, .8);
+// 			bottom: 0;
+// 			box-sizing: border-box;
+// 			position: absolute;
+// 			width: 100%;
+// 			padding: 1rem;
+// 			-webkit-transition: max-height 0.3s ease-out;
+// 			overflow: hidden;
+// 		}
+		
+// 		p { margin-top: .5rem; }
+// 	}
+	
+// 	img {
+// 		width: 100%;
+// 		height: 300px;
+// 		object-fit: cover;
+// 	}
+// }
+
+// @media screen and (min-width: 701px) {
+// 	figure {
+// 		width: calc(50% - 2rem);
+		
+// 		figcaption { height: 50px; }
+	
+// 		&:hover {
+// 			figcaption {
+// 				position: absolute;
+// 				bottom: 0;
+// 				width: 100%;
+// 				height: 100%;
+// 				transition: height .5s ease-in;
+// 			}
+			
+// 			p {
+// 				opacity: 1;
+// 				-webkit-transition: opacity .5s ease-in .6s;
+// 				-moz-transition: opacity .5s ease-in .6s;
+// 				-ms-transition: opacity .5s ease-in .6s;
+// 				transition: opacity .5s ease-in .6s;
+// 			}
+// 		}
+// 	}
+	
+// 	p { opacity: 0; }
+// }
+
+// @media screen and (max-width: 700px) {
+// 	figure { width: 100%; }
+	
+// 	p { opacity: 1; }
+// 	figcaption { height: auto; }
+// }
+// .bg1{
+//     background-color: #131417bb;
+//     width: 100%;
+//     height: 50%;
+// }
+// .type{
+//     color: #47cf73;
+    
+// }
+
+// .type:hover {
+//     color:#248c46;
+// }
+
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f257;
+    padding: 20px;
+    font-family: serif;
+  }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
