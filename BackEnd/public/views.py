@@ -6,6 +6,6 @@ class IndexView(APIView):
 
     def get(self, request, format=None):
         content = {
-            'wms': 'Welcome the Doctors :) '
+            'wms': 'Welcome the Doctorssss :) '
         }
         return Response(content)
