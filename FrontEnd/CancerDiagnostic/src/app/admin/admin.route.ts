@@ -5,6 +5,8 @@ import { ProfiladminComponent } from './layout/container/profiladmin/profiladmin
 import { DoctorComponent } from './layout/container/doctor/doctor.component';
 import { NotificationComponent } from './layout/container/notification/notification.component';
 import { AjouterAdminComponent } from './layout/container/administrator/ajouter-admin/ajouter-admin.component';
+import { DoctoraddComponent } from './layout/container/doctoradd/doctoradd.component';
+import { DoctoreditComponent } from './layout/container/doctoredit/doctoredit.component';
 
 
 // const adminRoute : Routes = [
@@ -26,6 +28,8 @@ const adminRoute : Routes = [
       {path:'doctor',component:DoctorComponent},
       {path:'notification',component:NotificationComponent},
       {path:'ajouterAdmin',component:AjouterAdminComponent},
+      {path:'addDoctor',component:DoctoraddComponent},
+      {path:'editDoctor',component:DoctoreditComponent},
     ]
   } 
  ]

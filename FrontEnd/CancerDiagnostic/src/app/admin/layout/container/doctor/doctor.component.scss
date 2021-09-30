@@ -72,5 +72,20 @@
     color: white;
   }
   .tab{
-    margin: 79px 200px 220px 120px;
+    margin: 44px 200px 220px 120px;
   }
+  .buttonNew{
+    //margin-left: 35px;
+    border-color: #13364f;
+    background-color: white;
+    color: #13364f;
+    align-items: self-end;
+    float: right;
+    }
+    .buttonNew:hover{
+    //margin-left: 35px;
+    background-color: #13364f;
+    color: white;
+    align-items: self-end;
+    float: right;
+    }

@@ -1,23 +1,28 @@
 <div class="body">
+
 <div>
  <button class="btn buttonBack" (click)="onBack()">Back</button>  
 
 </div>
+<div>
+<h1 class="fonttext d-flex justify-content-center">Doctors</h1>
+<button type="button" class="btn btn-sm buttonNew right" [routerLink]="['/Admin/addDoctor']" data-toggle="tooltip" data-placement="bottom" title="ADD New Doctor">+New</button>
+
 <table class="table tab">
   <thead class="thead-dark thead">
     <tr>
-      <th scope="col">N°</th>
       <th scope="col">Name</th>
-      <th scope="col">Mail</th>
+      <th scope="col">E-mail</th>
+      <th scope="col">Password</th>
       <th scope="col"></th>
     </tr>
   </thead>
  
   <tbody>
     <tr  *ngFor="let dataItem of DoctorsList" >
-      <th scope="row"> {{dataItem.id}}</th>
       <th scope="row"> {{dataItem.username}}</th>
       <th scope="row"> {{dataItem.email}}</th>
+      <th scope="row"> Password </th>
       <td>
         <button class="btn buttonUpd" data-toggle="tooltip" data-placement="bottom" title="Edit Doctor" (click)="onShow()"><i class="fa fa-pencil" aria-hidden="true"></i></button>
         <button class="btn btn-danger" data-toggle="tooltip" data-placement="bottom" title="Delete Doctor" (click)="onDelet()" ><i class="fa fa-trash-o" aria-hidden="true"></i></button>
@@ -26,7 +31,7 @@
     
   </tbody>
 </table>
-
+</div>
 
 
 </div>

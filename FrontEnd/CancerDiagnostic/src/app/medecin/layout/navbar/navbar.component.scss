@@ -34,3 +34,31 @@
   .buttHom{
     color: white;
   }
+
+  
+.notification {
+  font-family: serif;
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+
+
+  
+}
+
+.notification:hover {
+  color: rgba(226, 31, 31, 0.589);
+}
+
+.notification .badge {
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  padding: 4px 8px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}

@@ -20,23 +20,16 @@
   <br>
 
   <div class="form-group row">
-    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">Type Cancer</label>
+    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">E-mail</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control form-control-lg" id="colFormLabelLg" >
+      <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="example@gmail.com" >
     </div>
   </div>
   <br>
 
-<div class="form-group row">
-    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">Phone</label>
-    <div class="col-sm-10">
-      <input type="text" class="form-control form-control-lg" id="colFormLabelLg">
-    </div>
-  </div>
-  <br>
 
 <div class="form-group row">
-    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">City</label>
+    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">Password</label>
     <div class="col-sm-10">
       <input type="text" class="form-control form-control-lg" id="colFormLabelLg">
     </div>
@@ -45,12 +38,12 @@
 <div class="buttonGroupe">
     <button type="submit"
         class="btn ButtonCancel btn-sm marginR fonttext"   style="margin-left:200;"
-        [routerLink]="['/Doctor/patients']">
+        [routerLink]="['/Admin/doctor']">
         <span>Cancel</span>
     </button>
     <button type="submit"
         class="btn Buttonedit btn-sm fonttext"   style="margin-left:200;"
-        [routerLink]="['/patients']">
+        [routerLink]="['/Admin/doctor']">
         <span>Add</span>
     </button>
 </div>

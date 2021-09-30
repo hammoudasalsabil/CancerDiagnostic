@@ -8,7 +8,10 @@
 
     <div class="spacer">
      </div>
-      
+      <button class=" btn notification" [routerLink]="['notification']">
+      <i class="fa fa-bell-o fa-lg" aria-hidden="true"></i>
+        <span class="badge">3</span>
+      </button>
       <button type="submit"
       class="btn myButton btn-sm"   style="margin-left:200;"
       (click)="onLogout()">

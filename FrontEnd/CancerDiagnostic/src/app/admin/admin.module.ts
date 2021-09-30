@@ -15,6 +15,8 @@ import { DoctorComponent } from './layout/container/doctor/doctor.component';
 import { NotificationComponent } from './layout/container/notification/notification.component';
 import { AjouterAdminComponent } from './layout/container/administrator/ajouter-admin/ajouter-admin.component';
 import { SharedService } from 'src/app/services/shared.service';
+import { DoctoraddComponent } from './layout/container/doctoradd/doctoradd.component';
+import { DoctoreditComponent } from './layout/container/doctoredit/doctoredit.component';
 
 // const adminRoute : Routes = [
 //  {
@@ -37,6 +39,8 @@ import { SharedService } from 'src/app/services/shared.service';
     DoctorComponent,
     NotificationComponent,
     AjouterAdminComponent,
+    DoctoraddComponent,
+    DoctoreditComponent,
     
   ],
   imports: [
