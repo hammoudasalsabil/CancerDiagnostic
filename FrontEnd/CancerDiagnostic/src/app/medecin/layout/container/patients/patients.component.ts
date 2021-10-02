@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {SharedService} from 'src/app/services/shared.service';
 import { AuthService } from 'src/app/services/auth.service';
-import { User } from 'src/app/auth.model';
+import { User } from 'src/app/auth.model';  
 import { Router } from '@angular/router';
 import { Subscription } from 'rxjs';
 
@@ -36,5 +36,18 @@ export class PatientsComponent implements OnInit {
         if(element["IdUser"] == this.user.id)  this.PatientsDocList.push(this.PatientsList[index]);
      });
     });
+  }
+
+  // Editpatient(IdPatient: number){
+  //   this.router.navigate(['/patientsEdit',IdPatient])
+  // }
+  editPatient(){
+  this.router.navigate(['/Doctor/patientsEdit'])
+  }
+  showPatient(){
+
+    this.router.navigate(['/Doctor/patientsView'])
+  }
+  deletePatient(){
   }
 }

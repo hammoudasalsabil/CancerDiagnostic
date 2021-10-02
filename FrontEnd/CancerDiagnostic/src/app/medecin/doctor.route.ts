@@ -39,4 +39,17 @@ const doctorRoute : Routes = [
 ],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+  // constructor(private service: SharedService) {}
+
+  //   resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<ITblPatients> {
+  //       const id = route.params['id'] ? route.params['id'] : null;
+  //       if (id) {
+  //           return this.service.find(id).pipe(
+  //               filter((response: HttpResponse<TblPatients>) => response.ok),
+  //               map((tblUnit: HttpResponse<TblPatients>) => tblUnit.body)
+  //           );
+  //       }
+  //       return of(new TblPatients());
+  //   }
+ }

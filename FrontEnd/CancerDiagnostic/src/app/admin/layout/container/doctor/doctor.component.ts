@@ -45,7 +45,7 @@ export class DoctorComponent implements OnInit {
    }
 
   onShow(){
-  this.router.navigate(['/Admin'])
+  this.router.navigate(['/Admin/editDoctor'])
   }
 
   onDelet(){
