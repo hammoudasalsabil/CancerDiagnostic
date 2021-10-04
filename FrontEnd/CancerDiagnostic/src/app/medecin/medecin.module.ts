@@ -24,6 +24,7 @@ import { ResultatdiagnosticcerveautwoComponent } from './layout/container/result
 import { DiagnosticcerveautwoComponent } from './layout/container/diagnosticcerveautwo/diagnosticcerveautwo.component';
 import { DiagnosticcerveauoneComponent } from './layout/container/diagnosticcerveauone/diagnosticcerveauone.component';
 import { PatientviewpdfComponent } from './layout/container/patientviewpdf/patientviewpdf.component';
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -54,6 +55,8 @@ import { PatientviewpdfComponent } from './layout/container/patientviewpdf/patie
   imports: [
     CommonModule,
     AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
     BrowserModule
   ]
 })
