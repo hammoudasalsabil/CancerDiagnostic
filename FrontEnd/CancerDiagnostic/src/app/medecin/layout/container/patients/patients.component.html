@@ -1,7 +1,7 @@
 
 <div class="bodytab">
 <h1 class="fonttext d-flex justify-content-center">Patients</h1>
-<button type="button" class="btn btn-sm buttonNew right" [routerLink]="['/Doctor/patientsAdd']" data-toggle="tooltip" data-placement="bottom" title="ADD New Patient">+New</button>
+<button type="button" class="btn btn-sm buttonNew right" [routerLink]="['/Doctor/patientsAdd']" (click)="addclick()" data-toggle="tooltip" data-placement="bottom" title="ADD New Patient">+New</button>
 <br>
 <table class="table tab">
   <thead class="thead-dark thead">
