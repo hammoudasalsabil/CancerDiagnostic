@@ -16,6 +16,7 @@ export class PatientsComponent implements OnInit {
   PatientsDocList: any = [];
   user: User;
   userSub: Subscription;
+  patient: any;
   constructor(private service:SharedService, private authService:AuthService,private router: Router) { }
 
   ngOnInit(): void {
@@ -41,6 +42,17 @@ export class PatientsComponent implements OnInit {
   // Editpatient(IdPatient: number){
   //   this.router.navigate(['/patientsEdit',IdPatient])
   // }
+
+  addclick(){
+    this.patient = {
+      patientId: 0,
+      patientName:"",
+      patientLastname:"",
+      patientPhone:"",
+      patientTown:"",
+      patientUsser:""}
+  }
+
   editPatient(){
   this.router.navigate(['/Doctor/patientsEdit'])
   }
