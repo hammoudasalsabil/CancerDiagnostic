@@ -16,6 +16,7 @@ export class PatientsComponent implements OnInit {
   PatientsDocList: any = [];
   user: User;
   userSub: Subscription;
+  patient: any;
   constructor(private service:SharedService, private authService:AuthService,private router: Router) { }
 
   ngOnInit(): void {
@@ -41,13 +42,24 @@ export class PatientsComponent implements OnInit {
   // Editpatient(IdPatient: number){
   //   this.router.navigate(['/patientsEdit',IdPatient])
   // }
-  editPatient(){
-  this.router.navigate(['/Doctor/patientsEdit'])
-  }
-  showPatient(){
 
-    this.router.navigate(['/Doctor/patientsView'])
+  addclick(){
+    this.patient = {
+      patientId: 0,
+      patientName:"",
+      patientLastname:"",
+      patientPhone:"",
+      patientTown:"",
+      patientUsser:""}
   }
-  deletePatient(){
+
+  editPatient(id:number){
+  this.router.navigate(['/Doctor/patientsEdit',id])
+  }
+  showPatient(id:number){
+
+    this.router.navigate(['/Doctor/patientsView',id])
+  }
+  deletePatient(id:number){
   }
 }
