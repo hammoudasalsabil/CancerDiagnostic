@@ -5,6 +5,7 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { User } from 'src/app/auth.model';
 import { AuthService } from 'src/app/services/auth.service';
 import {SharedService} from 'src/app/services/shared.service';
+import { ITblPatiens } from 'src/app/model/patient.model';
 
 @Component({
   selector: 'app-patientadd',
@@ -16,6 +17,7 @@ export class PatientaddComponent implements OnInit {
   user: User;
   userSub: Subscription;
   addpatientForm: FormGroup;
+  tblpatient: ITblPatiens;
 
   constructor(private service:SharedService, private authService:AuthService,private router: Router) { }
 
@@ -37,8 +39,10 @@ export class PatientaddComponent implements OnInit {
   }
 
   addpatient(){
-    
-    this.service.addPatient(this.addpatientForm.value).subscribe(res=>{
+    this.tblpatient = this.addpatientForm.value;
+    console.log("this.addpatientForm.value",this.addpatientForm.value);
+    console.log("this.tblpatient",this.tblpatient);
+    this.service.addPatient(this.tblpatient).subscribe(res=>{
       alert(res.toString());
     });
   }
