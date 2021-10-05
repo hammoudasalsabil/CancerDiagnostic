@@ -1,41 +1,41 @@
 
-<div class="bodytab">
-<h1 class="fonttext d-flex justify-content-center">Patients</h1>
-<button type="button" class="btn btn-sm buttonNew right" [routerLink]="['/Doctor/patientsAdd']" (click)="addclick()" data-toggle="tooltip" data-placement="bottom" title="ADD New Patient">+New</button>
-<br>
-<table class="table tab">
-  <thead class="thead-dark thead">
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Last name</th>
-      <th scope="col">First name</th>
-      <th scope="col">Type Cancer</th>
-      <th scope="col">Phone</th>
-      <th scope="col">City</th>
+  <div class="bodytab">
+  <h1 class="fonttext d-flex justify-content-center">Patients</h1>
+  <button type="button" class="btn btn-sm buttonNew right" [routerLink]="['/Doctor/patientsAdd']" (click)="addclick()" data-toggle="tooltip" data-placement="bottom" title="ADD New Patient">+New</button>
+  <br>
+  <table class="table tab">
+    <thead class="thead-dark thead">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Last name</th>
+        <th scope="col">First name</th>
+        <th scope="col">Type Cancer</th>
+        <th scope="col">Phone</th>
+        <th scope="col">City</th>
 
-      <th scope="col"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr  *ngFor="let dataItem of PatientsDocList" >
-      <th scope="row"> {{dataItem.IdPatient}}</th>
-      <th scope="row"> {{dataItem.Name}}</th>
-      <th scope="row"> {{dataItem.LastName}}</th>
-      <th scope="row"> </th>
-      <th scope="row"> {{dataItem.Phone}}</th>
-      <th scope="row"> {{dataItem.Town}}</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr  *ngFor="let dataItem of PatientsDocList" >
+        <th scope="row"> {{dataItem.IdPatient}}</th>
+        <th scope="row"> {{dataItem.Name}}</th>
+        <th scope="row"> {{dataItem.LastName}}</th>
+        <th scope="row"> </th>
+        <th scope="row"> {{dataItem.Phone}}</th>
+        <th scope="row"> {{dataItem.Town}}</th>
 
-      <td>
+        <td>
         <button type="button" class="btn buttonUpd btn-sm"  data-toggle="tooltip" data-placement="bottom" title="Edit Patient" (click)="editPatient(dataItem.IdPatient)"><i class="fa fa-pencil" aria-hidden="true"></i></button><br>
         <button type="button" class="btn btn-danger btn-sm buttonDel"  data-toggle="tooltip" data-placement="bottom" title="Delete Patient" (click)="deletePatient(dataItem.IdPatient)"><i class="fa fa-trash-o" aria-hidden="true"></i></button><br>
         <button type="button" class="btn buttonview btn-sm"   data-toggle="tooltip" data-placement="bottom" title="View Data" (click)="showPatient(dataItem.IdPatient)"><i class="fa fa-eye" aria-hidden="true"></i></button>
-      </td>
-    </tr>
-    <!--
-[routerLink]="['/patientsView'/{{dataItem.IdPatient}}]"
-[routerLink]="['/patientsView', dataItem.IdPatient, 'edit']"
-    -->
-    
-  </tbody>
-</table>
-</div>
+        </td>
+      </tr>
+      <!--
+  [routerLink]="['/patientsView'/{{dataItem.IdPatient}}]"
+  [routerLink]="['/patientsView', dataItem.IdPatient, 'edit']"
+      -->
+      
+    </tbody>
+  </table>
+  </div>

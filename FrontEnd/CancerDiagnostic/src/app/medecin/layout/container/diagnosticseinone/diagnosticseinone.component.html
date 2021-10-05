@@ -1,46 +1,43 @@
 <div class="diagSien">
     <h1 class="fonttext d-flex justify-content-center">Diagnostic</h1>
-    <form [formGroup]="addDiagForm" (ngSubmit)="addDiag()">
-        <div class="form-group">
-            <!--
-
-            <label class="fonttext">Age</label>
-            <input type="text" formControlName  = "Age" name="age" class="form-control" required><br>
+   <form [formGroup]="addDiagForm" (ngSubmit)="addDiag()">
+         <div class="form-group">
+             <label class="fonttext">Age</label>
+             <input type="text" formControlName  = "Age" name="age" class="form-control" required><br>
             
-            --> 
-            <label class="fonttext">Age</label>
-            <input type="text" formControlName  = "Age" name="age" class="form-control" required><br>
+             <label class="fonttext">Maternity</label>
+             <input type="text" formControlName  = "Maternite" name="maternity" class="form-control" required><br>
             
-            <label class="fonttext">Maternity</label>
-            <input type="text" formControlName  = "Maternite" name="maternity" class="form-control" required><br>
-            
-            <label class="fonttext">Contraception</label>
-            <input type="text" formControlName  = "Contraception" name="contraception" class="form-control" required><br>
+             <label class="fonttext">Contraception</label>
+             <input type="text" formControlName  = "Contraception" name="contraception" class="form-control" required><br>
             
             <label class="fonttext">Antecedent_F</label>
-            <input type="text" formControlName  = "Antecedent_F" name="antecedent_F" class="form-control" required><br>
+             <input type="text" formControlName  = "Antecedent_F" name="antecedent_F" class="form-control" required><br>
             
-            <label class="fonttext">Antecedent</label>
-            <input type="text" formControlName  = "Antecedent" name="antecedent" class="form-control" required><br>
+             <label class="fonttext">Antecedent</label>
+             <input type="text" formControlName  = "Antecedent" name="antecedent" class="form-control" required><br>
             
-            <label class="fonttext">Cycle</label>
-            <input type="text" formControlName  = "Cycle" name="cycle" class="form-control" required><br>
-             </div>
-        <div class="form-group">
-            <label class="fonttext">Sign</label>
-                <select class="form-control" formControlName = "IdSing">
-                    <option *ngFor="let sign of tblSign" [ngValue]="sign.IdSign">
-                         {{sign.Sign}}
-                    </option>
-                </select>
-        </div>
-       
-    </form>
-    <div class="form">
-        <button class="fonttext buttonDiag marginR" (click)="addDiag()" >Result</button>
-        <button class="fonttext buttonBack" [routerLink]="['/Doctor/patientsView']">Back</button>
-    </div>
-    <div *ngIf="result">
-        <app-resultatdiagnosticseinone></app-resultatdiagnosticseinone>
-    </div>
-</div>
+             <label class="fonttext">Cycle</label>
+             <input type="text" formControlName  = "Cycle" name="cycle" class="form-control" required><br>
+         </div>
+         <div class="form-group">
+             <label class="fonttext">Sign</label>
+                 <select class="form-control" formControlName = "IdSing">
+                     <option *ngFor="let sign of tblSign" [ngValue]="sign.IdSign">
+                          {{sign.Sign}}
+                     </option>
+                 </select>
+         </div>
+         <div class="form-group">
+             <label class="fonttext">Date</label>
+             <input class="form-control" type="Date" >
+         </div>
+     </form>
+     <div class="form">
+         <button class="fonttext buttonDiag marginR" (click)="addDiag()" >Result</button>
+         <button class="fonttext buttonBack" [routerLink]="['/Doctor/patientsView']">Back</button>
+     </div>
+     <div *ngIf="result">
+         <app-resultatdiagnosticseinone></app-resultatdiagnosticseinone>
+     </div>
+ </div>
