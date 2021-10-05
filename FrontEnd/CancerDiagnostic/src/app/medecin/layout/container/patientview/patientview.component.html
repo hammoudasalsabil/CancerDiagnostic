@@ -4,7 +4,7 @@
             <h4 class="fonttext">First Name: </h4> 
         </div>
         <div class="col-md-3 m-1">
-          <h5 class="fonttext info">Tarak</h5> 
+          <h5 class="fonttext info">{{Patient?.Name}}</h5> 
         </div>
     
     </div>
@@ -13,7 +13,7 @@
             <h4 class="fonttext">Last Name: </h4> 
         </div>
         <div class="col-md-3 m-1">
-          <h5 class="fonttext info">Jmil</h5> 
+          <h5 class="fonttext info">{{Patient?.LastName}}</h5> 
         </div>
     
     </div>
@@ -28,19 +28,10 @@
     </div>
     <div class="row justify-content-center">
         <div class="col-md-2">
-            <h4 class="fonttext">Mail: </h4> 
-        </div>
-        <div class="col-md-3 m-1">
-          <h5 class="fonttext info">jmiltarak@gmail.com</h5> 
-        </div>
-    
-    </div>
-    <div class="row justify-content-center">
-        <div class="col-md-2">
             <h4 class="fonttext">Phone: </h4> 
         </div>
         <div class="col-md-3 m-1">
-          <h5 class="fonttext info">95 235 250</h5> 
+          <h5 class="fonttext info">{{Patient?.Phone}}</h5> 
         </div>
     
     </div>
@@ -49,7 +40,7 @@
             <h4 class="fonttext">City: </h4> 
         </div>
         <div class="col-md-3 m-1">
-          <h5 class="fonttext info">Medenine</h5> 
+          <h5 class="fonttext info">{{Patient?.Town}}</h5> 
         </div>
     
     </div>
@@ -58,7 +49,7 @@
 </div>
 <div class="row justify-content-center">
         <div class="col-md-3">
-            <button class="buttonDiag"[routerLink]="['/Doctor/diagnosticSienOne']" >Diagnostic 1</button>
+            <button class="buttonDiag"[routerLink]="['/Doctor/diagnosticSienOne',Patient?.IdPatient]" >Diagnostic 1</button>
         </div>
         <div class="col-md-3">
           <button class="buttonDiag" [routerLink]="['/Doctor/diagnosticSienTwo']">Diagnostic 2</button>

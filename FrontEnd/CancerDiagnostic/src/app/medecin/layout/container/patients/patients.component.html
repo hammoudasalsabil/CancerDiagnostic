@@ -26,9 +26,9 @@
       <th scope="row"> {{dataItem.Town}}</th>
 
       <td>
-        <button type="button" class="btn buttonUpd btn-sm"  data-toggle="tooltip" data-placement="bottom" title="Edit Patient" (click)="editPatient()"><i class="fa fa-pencil" aria-hidden="true"></i></button><br>
-        <button type="button" class="btn btn-danger btn-sm buttonDel"  data-toggle="tooltip" data-placement="bottom" title="Delete Patient" (click)="deletePatient()"><i class="fa fa-trash-o" aria-hidden="true"></i></button><br>
-        <button type="button" class="btn buttonview btn-sm"   data-toggle="tooltip" data-placement="bottom" title="View Data" (click)="showPatient()"><i class="fa fa-eye" aria-hidden="true"></i></button>
+        <button type="button" class="btn buttonUpd btn-sm"  data-toggle="tooltip" data-placement="bottom" title="Edit Patient" (click)="editPatient(dataItem.IdPatient)"><i class="fa fa-pencil" aria-hidden="true"></i></button><br>
+        <button type="button" class="btn btn-danger btn-sm buttonDel"  data-toggle="tooltip" data-placement="bottom" title="Delete Patient" (click)="deletePatient(dataItem.IdPatient)"><i class="fa fa-trash-o" aria-hidden="true"></i></button><br>
+        <button type="button" class="btn buttonview btn-sm"   data-toggle="tooltip" data-placement="bottom" title="View Data" (click)="showPatient(dataItem.IdPatient)"><i class="fa fa-eye" aria-hidden="true"></i></button>
       </td>
     </tr>
     <!--
