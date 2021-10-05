@@ -25,7 +25,5 @@ export class TblDiagBreast implements ITblDiagBreast {
         public Cycle?: string,
         public Date?: string,
         public IdPatient?: number,
-        public IdSing?: ITblSign,
-
-    ){}
+        public IdSing?: ITblSign,){}
 }
