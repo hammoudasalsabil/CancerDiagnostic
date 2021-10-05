@@ -53,13 +53,13 @@ export class PatientsComponent implements OnInit {
       patientUsser:""}
   }
 
-  editPatient(){
-  this.router.navigate(['/Doctor/patientsEdit'])
+  editPatient(id:number){
+  this.router.navigate(['/Doctor/patientsEdit',id])
   }
-  showPatient(){
+  showPatient(id:number){
 
-    this.router.navigate(['/Doctor/patientsView'])
+    this.router.navigate(['/Doctor/patientsView',id])
   }
-  deletePatient(){
+  deletePatient(id:number){
   }
 }

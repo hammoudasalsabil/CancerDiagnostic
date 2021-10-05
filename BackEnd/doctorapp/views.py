@@ -100,7 +100,7 @@ def diagnostic_breast_1Api(request,id=0):
         if diagnostic_serializer.is_valid():
             diagnostic_serializer.save()
             return JsonResponse("Added Successfully!!" , safe=False)
-        return JsonResponse("Failed to Add.",safe=False)
+        return JsonResponse("Failed to Add."+str(diagnostic_data) ,safe=False)
     
     elif request.method=='PUT':
         diagnostic_data = JSONParser().parse(request)
