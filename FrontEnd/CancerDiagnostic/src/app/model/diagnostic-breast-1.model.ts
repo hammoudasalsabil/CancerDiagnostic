@@ -13,7 +13,6 @@ export interface ITblDiagBreast {
     //IdPatient?: ITblPatiens;
     IdPatient?:number;
     IdSing?: ITblSign;
-
 }
 export class TblDiagBreast implements ITblDiagBreast {
     constructor(
