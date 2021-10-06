@@ -25,9 +25,9 @@ const doctorRoute : Routes = [
       {path:'patientsView/:id',component:PatientviewComponent},
       {path:'patientsAdd',component:PatientaddComponent},
       {path:'diagnosticSienOne/:id',component:DiagnosticseinoneComponent},
-      {path:'diagnosticSienTwo',component:DiagnosticseintwoComponent},
-      {path:'DiagnosticCerveauOne',component:DiagnosticcerveauoneComponent},
-      {path:'DiagnosticCerveauTwo',component:DiagnosticcerveautwoComponent},
+      {path:'diagnosticSienTwo/:id',component:DiagnosticseintwoComponent},
+      {path:'DiagnosticCerveauOne/:id',component:DiagnosticcerveauoneComponent},
+      {path:'DiagnosticCerveauTwo/:id',component:DiagnosticcerveautwoComponent},
       {path:'PDF',component:PatientviewpdfComponent},
     ]
   } 
