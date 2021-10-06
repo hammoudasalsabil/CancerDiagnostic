@@ -104,7 +104,7 @@ export class SharedService {
     return this.http.put(this.APIUrl + 'core/Users/',val);
   }
   updatePatient(val:any){
-    return this.http.put(this.APIUrl + 'doctor/',val);
+    return this.http.put(this.APIUrl + 'doctor/Patient/',val);
   }
 
   updateSign(val:any){

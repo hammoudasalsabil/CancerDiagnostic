@@ -43,7 +43,6 @@ export class PatientaddComponent implements OnInit {
     console.log("this.addpatientForm.value",this.addpatientForm.value);
     console.log("this.tblpatient",this.tblpatient);
     this.service.addPatient(this.tblpatient).subscribe(res=>{
-      alert(res.toString());
     });
   }
 

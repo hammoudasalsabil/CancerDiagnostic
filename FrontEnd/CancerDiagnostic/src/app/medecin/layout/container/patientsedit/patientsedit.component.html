@@ -2,11 +2,11 @@
 <h1 class="fonttext d-flex justify-content-center"> update Patient</h1>
 <br>
 <br>
-    <form>
+       <form [formGroup]="addpatientForm" (ngSubmit)="updpatient()">
   <div class="form-group row">
     <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">First Name</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control form-control-lg" id="colFormLabelLg">
+      <input type="text" class="form-control form-control-lg" formControlName = "Name" name="name" required >
     </div>
   </div>
   <br>
@@ -14,23 +14,16 @@
 <div class="form-group row">
     <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">Last Name</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control form-control-lg" id="colFormLabelLg">
+      <input type="text" class="form-control form-control-lg"  formControlName  = "LastName" name="lastname" required >
     </div>
   </div>
   <br>
 
-  <div class="form-group row">
-    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">Type Cancer</label>
-    <div class="col-sm-10">
-      <input type="text" class="form-control form-control-lg" id="colFormLabelLg" >
-    </div>
-  </div>
-  <br>
 
 <div class="form-group row">
     <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">Phone</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control form-control-lg" id="colFormLabelLg">
+      <input type="text" class="form-control form-control-lg" formControlName  = "Phone" name="phone" required>
     </div>
   </div>
   <br>
@@ -38,19 +31,20 @@
 <div class="form-group row">
     <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">City</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control form-control-lg" id="colFormLabelLg">
+      <input type="text" class="form-control form-control-lg" formControlName = "Town" name="town" required>
     </div>
   </div>
-</form>
-<div class="buttonGroupe">
+  <div class="buttonGroupe">
     <button type="submit"
         class="btn ButtonCancel btn-sm marginR fonttext"   style="margin-left:200;"
         [routerLink]="['/Doctor/patients']">
         <span>Cancel</span>
     </button>
-    <button type="submit"
-        class="btn Buttonedit btn-sm fonttext"   style="margin-left:200;"
+    <button type="button"
+  
+        class="btn Buttonedit btn-sm fonttext"   style="margin-left:200;" (click)="updpatient()"
         [routerLink]="['/Doctor/patients']">
         <span>Edit</span>
     </button>
 </div>
+</form>
