@@ -66,7 +66,7 @@ export class DiagnosticseinoneComponent implements OnInit {
       'Antecedent_F': new FormControl(null,[Validators.required]),
       'Antecedent': new FormControl(null,[Validators.required]),
       'Cycle': new FormControl(null,[Validators.required]),
-      'IdSing': new FormControl(null, [Validators.required]),
+      'IdSign': new FormControl(null, [Validators.required]),
       //'IdPatient': new FormControl(this.Patient.IdPatient, [])
       //'IdPatient': new FormControl(this.Patient, [Validators.required]),
     })
