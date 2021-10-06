@@ -52,16 +52,16 @@
             <button class="buttonDiag"[routerLink]="['/Doctor/diagnosticSienOne',Patient?.IdPatient]" >Diagnostic 1</button>
         </div>
         <div class="col-md-3">
-          <button class="buttonDiag" [routerLink]="['/Doctor/diagnosticSienTwo']">Diagnostic 2</button>
+          <button class="buttonDiag" [routerLink]="['/Doctor/DiagnosticCerveauOne',Patient?.IdPatient]" >Diagnostic 1</button>
         </div>
     
 </div>
 <div class="row justify-content-center">
         <div class="col-md-3">
-            <button class="buttonDiag" [routerLink]="['/Doctor/DiagnosticCerveauOne']" >Diagnostic 1</button>
+            <button class="buttonDiag" [routerLink]="['/Doctor/diagnosticSienTwo',Patient?.IdPatient]">Diagnostic 2</button>
         </div>
         <div class="col-md-3">
-          <button class="buttonDiag" [routerLink]="['/Doctor/DiagnosticCerveauTwo']">Diagnostic 2</button>
+          <button class="buttonDiag" [routerLink]="['/Doctor/DiagnosticCerveauTwo',Patient?.IdPatient]">Diagnostic 2</button>
         </div>
     
 </div>
@@ -69,37 +69,16 @@
 <table class="table tab">
   <thead class="thead-dark thead">
     <tr>
-      <th scope="col">#</th>
       <th scope="col">Date</th>
       <th scope="col">Type Diagnostic</th>
       <th scope="col"></th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>09/02/2012</td>
-      <td>C1</td>
-      <td>
-        <button type="button" class="btn buttonview btn-sm" [routerLink]="['/Doctor/PDF']">
-          <i class="fa fa-eye" aria-hidden="true"></i>
-        </button>
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>19/05/2021</td>
-      <td>C1</td>
-      <td>
-        <button type="button" class="btn buttonview btn-sm" [routerLink]="['/PDF']">
-          <i class="fa fa-eye" aria-hidden="true"></i>
-        </button>
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">1</th>
-      <td>25/08/2021</td>
-      <td>C1</td>
+    <tr  *ngFor="let tbldiag of tblDiagnosticBreastOneList" >
+      <th scope="row"> {{tbldiag.Date}}</th>
+      <th scope="row">Breast One</th>
+
       <td>
         <button type="button" class="btn buttonview btn-sm" [routerLink]="['/PDF']">
           <i class="fa fa-eye" aria-hidden="true"></i>
@@ -109,6 +88,7 @@
     <!--
 
     -->
+    
     
   </tbody>
 </table>
