@@ -137,39 +137,39 @@ export class SharedService {
   }
 
   //Delete
-  deleteUser(val:any){
-    return this.http.delete(this.APIUrl + 'core/Users/',val);
+  deleteUser(id:number){
+    return this.http.delete(this.APIUrl + 'core/Users/'+id);
   }
-  deletePatient(val:any){
-    return this.http.delete(this.APIUrl + 'doctor/Patient/',val);
+  deletePatient(id:number){
+    return this.http.delete(this.APIUrl + 'doctor/Patient/'+id);
   }
-  deleteSign(val:any){
-    return this.http.delete(this.APIUrl + 'doctor/Sign/',val);
+  deleteSign(id:number){
+    return this.http.delete(this.APIUrl + 'doctor/Sign/'+id);
   }
 
-  deleteDiagnosticBreastOne(val:any){
-    return this.http.delete(this.APIUrl + 'doctor/Diagnostic_Breast_1/',val);
+  deleteDiagnosticBreastOne(id:number){
+    return this.http.delete(this.APIUrl + 'doctor/Diagnostic_Breast_1/'+id);
   }
-  deleteDiagnosticBreastTwo(val:any){
-    return this.http.delete(this.APIUrl + 'doctor/Diagnostic_Breast_2/',val);
+  deleteDiagnosticBreastTwo(id:number){
+    return this.http.delete(this.APIUrl + 'doctor/Diagnostic_Breast_2/'+id);
   }
-  deleteDiagnosticBrainOne(val:any){
-    return this.http.delete(this.APIUrl + 'doctor/Diagnostic_Brain_1/',val);
+  deleteDiagnosticBrainOne(id:number){
+    return this.http.delete(this.APIUrl + 'doctor/Diagnostic_Brain_1/'+id);
   }
-  deleteDiagnosticBrainTwo(val:any){
-    return this.http.delete(this.APIUrl + 'doctor/Diagnostic_Brain_2/',val);
+  deleteDiagnosticBrainTwo(id:number){
+    return this.http.delete(this.APIUrl + 'doctor/Diagnostic_Brain_2/'+id);
   }
-  deleteResultBrainOne(val:any){
-    return this.http.delete(this.APIUrl + 'doctor/Result_Diagnostic_Brain_1/',val);
+  deleteResultBrainOne(id:number){
+    return this.http.delete(this.APIUrl + 'doctor/Result_Diagnostic_Brain_1/'+id);
   }
-  deleteResultBrainTwo(val:any){
-    return this.http.delete(this.APIUrl + 'doctor/Result_Diagnostic_Brain_2/',val);
+  deleteResultBrainTwo(id:number){
+    return this.http.delete(this.APIUrl + 'doctor/Result_Diagnostic_Brain_2/'+id);
   }
-  deleteResultBreastOne(val:any){
-    return this.http.delete(this.APIUrl + 'doctor/Result_Diagnostic_Breas_1/',val);
+  deleteResultBreastOne(id:number){
+    return this.http.delete(this.APIUrl + 'doctor/Result_Diagnostic_Breas_1/'+id);
   }
-  deleteResultBreastTwo(val:any){
-    return this.http.delete(this.APIUrl + 'doctor/Result_Diagnostic_Breas_2/',val);
+  deleteResultBreastTwo(id:number){
+    return this.http.delete(this.APIUrl + 'doctor/Result_Diagnostic_Breas_2/'+id);
   }
 
   //Upload Photo
