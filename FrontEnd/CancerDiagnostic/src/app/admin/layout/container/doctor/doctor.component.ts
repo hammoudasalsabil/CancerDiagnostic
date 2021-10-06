@@ -16,6 +16,7 @@ export class DoctorComponent implements OnInit {
   constructor(private service:SharedService, private authService:AuthService,private router: Router ) { }
 
   DoctorsList: any = [];
+  Doctors: any = [];
   user: User;
   userSub: Subscription;
   message: any = [];
@@ -27,6 +28,7 @@ export class DoctorComponent implements OnInit {
         this.user = data
       }
     )
+    this.getDoctors();
   }
   onBack(){
     this.router.navigate(['/Admin'])
@@ -37,6 +39,21 @@ export class DoctorComponent implements OnInit {
     });
   }
 
+  getDoctors(){
+    this.service.getUserList().subscribe(data=>{
+      this.DoctorsList = data;
+      console.log("this.DoctorsList ==== :",this.DoctorsList);
+
+      this.DoctorsList.forEach((element, index)=>{
+        if(element["is_superuser"] == true) delete this.DoctorsList[index];
+
+        if(element["is_superuser"] == false){  
+          this.Doctors.push(this.DoctorsList[index]);
+          
+        }
+     });
+    });
+  }
   showmsg(){
     this.service.getUserList().subscribe(data=>{
       this.message = data,
