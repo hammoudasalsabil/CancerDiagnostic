@@ -61,5 +61,14 @@ export class PatientsComponent implements OnInit {
     this.router.navigate(['/Doctor/patientsView',id])
   }
   deletePatient(id:number){
+    let confirm=window.confirm('are you sure?')
+    if(confirm==true){
+
+      this.service.deletePatient(id).subscribe(res=>{
+        //alert(res.toString());
+        });
+      this.router.navigate(['/Doctor/patients'])
+    }
+    
   }
 }
