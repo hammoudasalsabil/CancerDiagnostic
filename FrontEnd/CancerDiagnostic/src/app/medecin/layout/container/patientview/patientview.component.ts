@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { ITblDiagBain } from 'src/app/model/diagnostic-brain-1.model';
 import { ITblDiagBreast } from 'src/app/model/diagnostic-breast-1.model';
 import { ITblPatiens } from 'src/app/model/patient.model';
 import { SharedService } from 'src/app/services/shared.service';
@@ -15,6 +16,9 @@ PatientsList:ITblPatiens[];
 Patient:ITblPatiens;
 tblDiagnosticBreastOnes: ITblDiagBreast[];
 tblDiagnosticBreastOneList: any=[];
+
+tblDiagnosticBrainOnes: ITblDiagBain [];
+tblDiagnosticBrainOneList: any=[];
   constructor(private service:SharedService,private activatedRoute: ActivatedRoute,) {
     this.idPatient = this.activatedRoute.snapshot.params['id'];
    }
@@ -29,6 +33,7 @@ tblDiagnosticBreastOneList: any=[];
           });
     });
     this.getdiagnstic();
+    //this.getdiagnsticBrain();
   }
   getdiagnstic(){
     this.service.getDiagnosticBreastOne().subscribe(data =>{
@@ -44,5 +49,19 @@ tblDiagnosticBreastOneList: any=[];
       })
     })
   }
+  // getdiagnsticBrain(){
+  //   this.service.getDiagnosticBrainOne().subscribe(data =>{
+  //     this.tblDiagnosticBrainOnes = data,
+  //     console.log(this.tblDiagnosticBrainOnes);
+  //     this.tblDiagnosticBrainOnes.forEach((element, index)=>{
+
+  //       if(element['IdPatient'] != this.idPatient) delete this.tblDiagnosticBrainOnes[index];
+
+  //       if(element['IdPatient'] == this.idPatient)  this.tblDiagnosticBrainOneList.push(this.tblDiagnosticBrainOnes[index]);
+
+  //       console.log("tblDiagnosticBrainOneList :",this.tblDiagnosticBrainOneList);
+  //     })
+  //   })
+  // }
 
 }

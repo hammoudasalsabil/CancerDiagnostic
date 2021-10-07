@@ -1,9 +1,5 @@
 <div class="body">
   <h1 class="text-center fonttext marginTitle">Diagnostic Cancer</h1> 
-   <h1>User Profile</h1>
-        <h4>Name: {{user.name|titlecase}}</h4>
-        <h4>Username: {{user.username}}</h4>
-        <h4>Email: {{user.email}}</h4>
   <div class="contentprofil">
     <br>
     <div class="cardA">
@@ -11,7 +7,7 @@
         <img src="/assets/images/doctor.jpg"  alt="John" style="width:100%">
         <!-- <h1>Doctors</h1>-->
         <br>
-        <p class="title">Statistique N</p>
+        <p class="title">{{nbrDoctor}} Doctors</p>
   
        
         <p><button [routerLink]="['doctor']">Doctors</button></p>
@@ -26,7 +22,7 @@
         <!-- <h1>Doctors</h1>-->
         <br>
         <br>
-        <p class="title">Statistique N</p>
+        <p class="title">{{nbrPatient}} Patients</p>
   
         <p><button [routerLink]="['doctor']">Patients</button></p>
       </div>
