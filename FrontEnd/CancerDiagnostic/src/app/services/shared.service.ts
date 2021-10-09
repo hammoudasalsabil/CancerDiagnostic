@@ -25,10 +25,13 @@ export class SharedService {
     return this.http.get(this.APIUrl+ 'accounts/profile/');
   }
 
-
   getUserList():Observable<any[]>{
     return this.http.get<any[]>(this.APIUrl + 'core/Users/',
     {headers : this.httpHeadrs});
+  }
+
+  getAlert():Observable<any[]>{
+    return this.http.get<any[]>(this.APIUrl + 'doctor/Alertes/');
   }
 
   getPatientsList():Observable<any[]>{
@@ -64,6 +67,9 @@ export class SharedService {
   }
 
   //Add
+  addAlert(val:any){
+    return this.http.post(this.APIUrl + 'doctor/Alertes/',val);
+  }
   addDoctor(val:any){
     return this.http.post(this.APIUrl + 'accounts/add_doctor/',val);
   }

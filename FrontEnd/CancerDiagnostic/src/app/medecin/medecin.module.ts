@@ -25,6 +25,7 @@ import { DiagnosticcerveautwoComponent } from './layout/container/diagnosticcerv
 import { DiagnosticcerveauoneComponent } from './layout/container/diagnosticcerveauone/diagnosticcerveauone.component';
 import { PatientviewpdfComponent } from './layout/container/patientviewpdf/patientviewpdf.component';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -57,7 +58,8 @@ import { FormsModule,ReactiveFormsModule } from '@angular/forms';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    BrowserModule
+    BrowserModule,
+    NgbModule,
   ]
 })
 export class MedecinModule { }
