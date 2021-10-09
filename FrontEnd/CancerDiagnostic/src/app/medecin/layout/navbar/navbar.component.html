@@ -8,13 +8,64 @@
 
     <div class="spacer">
      </div>
-      <button class=" btn notification" [routerLink]="['notification']">
+      
+      <!-- <button class=" btn notification" [routerLink]="['notification']">
       <i class="fa fa-bell-o fa-lg" aria-hidden="true"></i>
         <span class="badge">3</span>
       </button>
+      hathi s7i7ha: 
+      <div ngbDropdown class="btn-group">
+        <button ngbDropdownToggle class=" btn notification">
+      <i class="fa fa-bell-o fa-lg" aria-hidden="true"></i>
+        <span class="badge">3</span>
+      </button>
+        <div ngbDropdownMenu class="dropdown-menu dropdown-menu dropdown-menu-right">
+          <button ngbDropdownItem class="dropdown-item" type="button">Action</button>
+          <button ngbDropdownItem class="dropdown-item" type="button">Another action</button>
+          <button ngbDropdownItem class="dropdown-item" type="button">Something else here</button>
+        </div>
+      </div>
+      
+      -->
+      <!-- drop-->
+      <div ngbDropdown class="btn-group">
+        <button ngbDropdownToggle class=" btn notification">
+      <i class="fa fa-bell-o fa-lg" aria-hidden="true"></i>
+        <span class="badge">{{nbrAlert}}</span>
+      </button>
+        <div ngbDropdownMenu class="dropdown-menu dropdown-menu-right">
+        <table class="table tab">
+            <thead>
+              <tr>
+                <th scope="col">Alert Diagnostic</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ngbDropdownItem *ngFor="let alert of alertlist" >
+                <th  > {{alert.Text}}</th>
+                <th  > {{alert.Date}}</th>
+              </tr>
+            </tbody>
+        </table>
+        <!-- 
+           <button ngbDropdownItem class="dropdown-item" type="button">Action</button>
+          <button ngbDropdownItem class="dropdown-item" type="button">Another action</button>
+          <button ngbDropdownItem class="dropdown-item" type="button">Something else here</button>
+        -->
+         
+        </div>
+      </div>
+      <!-- drop-->
       <button type="submit"
       class="btn myButton btn-sm"   style="margin-left:200;"
       (click)="onLogout()">
       <span>logout</span>
      </button>
 </div>
+
+
+
+
+
+
