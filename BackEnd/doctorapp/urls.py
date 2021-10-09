@@ -23,8 +23,8 @@ urlpatterns = [
     url(r'^Diagnostic_Brain_1/$', views.diagnostic_Brain_1Api),
     url(r'^Diagnostic_Brain_1/([0-9]+)$', views.diagnostic_Brain_1Api),
 
-    url(r'^Diagnostic_Brain_2/$', views.diagnostic_Brain_1Api),
-    url(r'^Diagnostic_Brain_2/([0-9]+)$', views.diagnostic_Brain_1Api),
+    url(r'^Diagnostic_Brain_2/$', views.diagnostic_Brain_2Api),
+    url(r'^Diagnostic_Brain_2/([0-9]+)$', views.diagnostic_Brain_2Api),
 
     url(r'^Result_Diagnostic_Breast_1/$', views.result_Dbreast_1Api),
     url(r'^Result_Diagnostic_Breast_1/([0-9]+)$', views.result_Dbreast_1Api),

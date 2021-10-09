@@ -52,8 +52,7 @@ class Diagnostic_breast_2Serializer(serializers.ModelSerializer):
         fields = ('IdDiagnostic',
                 'Echo',
                 'CA15',
-                'IdDiagnostic1',
-                'Date')
+                'IdDiagnostic1')
 
 
 class Result_Dbreast_2Serializer(serializers.ModelSerializer):
@@ -85,7 +84,6 @@ class Diagnostic_Brain_1Serializer(serializers.ModelSerializer):
                 'CriseEpilepsie',
                 'Date',
                 'IdDeficitNeurologique',
-                'IdType',
                 'IdPatient')
 
 
