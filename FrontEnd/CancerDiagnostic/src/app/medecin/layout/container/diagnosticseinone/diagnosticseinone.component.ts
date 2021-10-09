@@ -3,7 +3,7 @@ import { HttpResponse } from '@angular/common/http';
 
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { filter, map } from 'rxjs/operators';
 import { User } from 'src/app/auth.model';
@@ -32,7 +32,7 @@ export class DiagnosticseinoneComponent implements OnInit {
   myDate: string;
   
   
-  constructor( private service:SharedService, private authService:AuthService,private activatedRoute: ActivatedRoute,) {
+  constructor( private service:SharedService, private authService:AuthService,private activatedRoute: ActivatedRoute, private router: Router ) {
 
     this.idPatient = this.activatedRoute.snapshot.params['id'];
 
@@ -102,5 +102,8 @@ export class DiagnosticseinoneComponent implements OnInit {
       else
       this.result = !this.result
     });
+  }
+  onBack(){
+    this.router.navigate(['/Doctor/patientsView',this.idPatient])
   }
 }

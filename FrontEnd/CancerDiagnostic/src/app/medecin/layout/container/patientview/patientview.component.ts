@@ -33,7 +33,7 @@ tblDiagnosticBrainOneList: any=[];
           });
     });
     this.getdiagnstic();
-    //this.getdiagnsticBrain();
+    this.getdiagnsticBrain();
   }
   getdiagnstic(){
     this.service.getDiagnosticBreastOne().subscribe(data =>{
@@ -49,19 +49,19 @@ tblDiagnosticBrainOneList: any=[];
       })
     })
   }
-  // getdiagnsticBrain(){
-  //   this.service.getDiagnosticBrainOne().subscribe(data =>{
-  //     this.tblDiagnosticBrainOnes = data,
-  //     console.log(this.tblDiagnosticBrainOnes);
-  //     this.tblDiagnosticBrainOnes.forEach((element, index)=>{
+  getdiagnsticBrain(){
+    this.service.getDiagnosticBrainOne().subscribe(data =>{
+      this.tblDiagnosticBrainOnes = data,
+      console.log(this.tblDiagnosticBrainOnes);
+      this.tblDiagnosticBrainOnes.forEach((element, index)=>{
 
-  //       if(element['IdPatient'] != this.idPatient) delete this.tblDiagnosticBrainOnes[index];
+        if(element['IdPatient'] != this.idPatient) delete this.tblDiagnosticBrainOnes[index];
 
-  //       if(element['IdPatient'] == this.idPatient)  this.tblDiagnosticBrainOneList.push(this.tblDiagnosticBrainOnes[index]);
+        if(element['IdPatient'] == this.idPatient)  this.tblDiagnosticBrainOneList.push(this.tblDiagnosticBrainOnes[index]);
 
-  //       console.log("tblDiagnosticBrainOneList :",this.tblDiagnosticBrainOneList);
-  //     })
-  //   })
-  // }
+        console.log("tblDiagnosticBrainOneList :",this.tblDiagnosticBrainOneList);
+      })
+    })
+  }
 
 }
