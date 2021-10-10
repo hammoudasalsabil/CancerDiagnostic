@@ -46,6 +46,7 @@ class Diagnostic_breast_2(models.Model):
     IdDiagnostic1 = models.ForeignKey(Diagnostic_breast_1, on_delete=models.CASCADE)
     Echo = models.FileField() 
     CA15 = models.IntegerField()
+    Date  = models.DateField(auto_now=True)
 
 
 class Result_Dbreast_2(models.Model):
@@ -55,7 +56,7 @@ class Result_Dbreast_2(models.Model):
     Modification = models.BooleanField(default=False)
     Echo = models.BooleanField()
     CA15 = models.BooleanField()
-    Date  = models.DateField(auto_now=True)
+    
 
 
 
