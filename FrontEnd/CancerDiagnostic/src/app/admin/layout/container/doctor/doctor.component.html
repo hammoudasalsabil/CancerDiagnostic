@@ -24,8 +24,8 @@
       <th scope="row"> {{dataItem.email}}</th>
       <th scope="row"> Password </th>
       <td>
-        <button class="btn buttonUpd" data-toggle="tooltip" data-placement="bottom" title="Edit Doctor" (click)="onShow()"><i class="fa fa-pencil" aria-hidden="true"></i></button>
-        <button class="btn btn-danger" data-toggle="tooltip" data-placement="bottom" title="Delete Doctor" (click)="onDelet()" ><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+        <button class="btn buttonUpd" data-toggle="tooltip" data-placement="bottom" title="Edit Doctor" (click)="onShow(dataItem.id)"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+        <button class="btn btn-danger" data-toggle="tooltip" data-placement="bottom" title="Delete Doctor" (click)="onDelet(dataItem.id)" ><i class="fa fa-trash-o" aria-hidden="true"></i></button>
       </td>
     </tr>
     
