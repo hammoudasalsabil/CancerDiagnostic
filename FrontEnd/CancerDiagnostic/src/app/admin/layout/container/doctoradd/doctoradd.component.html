@@ -1,49 +1,50 @@
 <div class="editpastient">
-<h1 class="fonttext d-flex justify-content-center"> Add Patient</h1>
+<h1 class="fonttext d-flex justify-content-center"> Add Doctor</h1>
 <br>
 <br>
-    <form>
+<form [formGroup]="adddoctorForm" (ngSubmit)="addDoctor()">
+      <div class="form-group row">
+      <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">First Name</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control form-control-lg" formControlName = "username" name="fusername" required >
+      </div>
+    </div>
+    <br>
+
+    <div class="form-group row">
+      <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">Last Name</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control form-control-lg" formControlName = "name" name="fname" required >
+      </div>
+    </div>
+    <br>
+
+    <div class="form-group row">
+      <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">E-mail</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control form-control-lg"  formControlName  = "email" name="femail"  placeholder="example@gmail.com" required >
+      </div>
+    </div>
+    <br>
+
+
   <div class="form-group row">
-    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">First Name</label>
-    <div class="col-sm-10">
-      <input type="text" class="form-control form-control-lg" id="colFormLabelLg">
+      <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">Password</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control form-control-lg"  formControlName  = "password" name="fpassword" required >
+      </div>
     </div>
-  </div>
-  <br>
 
-<div class="form-group row">
-    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">Last Name</label>
-    <div class="col-sm-10">
-      <input type="text" class="form-control form-control-lg" id="colFormLabelLg">
-    </div>
-  </div>
-  <br>
-
-  <div class="form-group row">
-    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">E-mail</label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="example@gmail.com" >
-    </div>
-  </div>
-  <br>
-
-
-<div class="form-group row">
-    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">Password</label>
-    <div class="col-sm-10">
-      <input type="text" class="form-control form-control-lg" id="colFormLabelLg">
-    </div>
+  <div class="buttonGroupe">
+      <button type="submit"
+          class="btn ButtonCancel btn-sm marginR fonttext"   style="margin-left:200;"
+          [routerLink]="['/Admin/doctor']">
+          <span>Cancel</span>
+      </button>
+      <button type="button"
+    
+          class="btn Buttonedit btn-sm fonttext"   style="margin-left:200;" (click)="addDoctor()">
+          <span>Add</span>
+      </button>
   </div>
 </form>
-<div class="buttonGroupe">
-    <button type="submit"
-        class="btn ButtonCancel btn-sm marginR fonttext"   style="margin-left:200;"
-        [routerLink]="['/Admin/doctor']">
-        <span>Cancel</span>
-    </button>
-    <button type="submit"
-        class="btn Buttonedit btn-sm fonttext"   style="margin-left:200;"
-        [routerLink]="['/Admin/doctor']">
-        <span>Add</span>
-    </button>
-</div>

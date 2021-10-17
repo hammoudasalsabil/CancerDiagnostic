@@ -29,7 +29,7 @@ const adminRoute : Routes = [
       {path:'notification',component:NotificationComponent},
       {path:'ajouterAdmin',component:AjouterAdminComponent},
       {path:'addDoctor',component:DoctoraddComponent},
-      {path:'editDoctor',component:DoctoreditComponent},
+      {path:'editDoctor/:id',component:DoctoreditComponent},
     ]
   } 
  ]

@@ -2,7 +2,7 @@
 <h1 class="fonttext d-flex justify-content-center"> Add Patient</h1>
 <br>
 <br>
-    <form [formGroup]="addpatientForm" (ngSubmit)="addpatient()">
+<form [formGroup]="addpatientForm" (ngSubmit)="addpatient()">
   <div class="form-group row">
     <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">First Name</label>
     <div class="col-sm-10">
@@ -11,7 +11,7 @@
   </div>
   <br>
 
-<div class="form-group row">
+  <div class="form-group row">
     <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">Last Name</label>
     <div class="col-sm-10">
       <input type="text" class="form-control form-control-lg"  formControlName  = "LastName" name="lastname" required >
@@ -20,7 +20,7 @@
   <br>
 
 
-<div class="form-group row">
+  <div class="form-group row">
     <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">Phone</label>
     <div class="col-sm-10">
       <input type="text" class="form-control form-control-lg" formControlName  = "Phone" name="phone" required>
@@ -28,7 +28,7 @@
   </div>
   <br>
 
-<div class="form-group row">
+  <div class="form-group row">
     <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext">City</label>
     <div class="col-sm-10">
       <input type="text" class="form-control form-control-lg" formControlName = "Town" name="town" required>
@@ -46,6 +46,6 @@
         [routerLink]="['/Doctor/patients']">
         <span>Add</span>
     </button>
-</div>
+  </div>
 </form>
 
