@@ -30,7 +30,12 @@
      </button>
       <button type="submit"
         class="btn myButton btn-sm fonttext"   style="margin-left:200;"
-        [routerLink]="['Doctor']" *ngIf="isAuthenticated">
+        [routerLink]="['Doctor']" *ngIf="isdoc">
+      <span>{{user.username}}</span>
+     </button>
+     <button type="submit"
+        class="btn myButton btn-sm fonttext"   style="margin-left:200;"
+        [routerLink]="['Admin']" *ngIf="isadmin">
       <span>{{user.username}}</span>
      </button>
       <button type="submit"
