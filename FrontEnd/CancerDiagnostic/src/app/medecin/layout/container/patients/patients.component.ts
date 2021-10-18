@@ -35,6 +35,7 @@ export class PatientsComponent implements OnInit {
         if(element["IdUser"] != this.user.id) delete this.PatientsList[index];
 
         if(element["IdUser"] == this.user.id)  this.PatientsDocList.push(this.PatientsList[index]);
+        console.log("PatientsDocList",this.PatientsDocList)
      });
     });
   }

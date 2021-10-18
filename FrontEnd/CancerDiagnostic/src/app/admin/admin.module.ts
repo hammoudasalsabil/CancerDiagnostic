@@ -18,6 +18,7 @@ import { SharedService } from 'src/app/services/shared.service';
 import { DoctoraddComponent } from './layout/container/doctoradd/doctoradd.component';
 import { DoctoreditComponent } from './layout/container/doctoredit/doctoredit.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { PatientsComponent } from './layout/container/patients/patients.component';
 
 // const adminRoute : Routes = [
 //  {
@@ -42,6 +43,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AjouterAdminComponent,
     DoctoraddComponent,
     DoctoreditComponent,
+    PatientsComponent,
     
   ],
   imports: [
