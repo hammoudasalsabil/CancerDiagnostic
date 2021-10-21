@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { AuthService } from 'src/app/services/auth.service';
+import { SharedService } from 'src/app/services/shared.service';
 
 @Component({
   selector: 'app-diagnosticcerveautwo',
@@ -8,7 +11,13 @@ import { Component, OnInit } from '@angular/core';
 export class DiagnosticcerveautwoComponent implements OnInit {
   
   result: boolean=false;
-  constructor() { }
+  idPatient:number;
+  
+  constructor( private service:SharedService, private authService:AuthService,private activatedRoute: ActivatedRoute, private router: Router ) {
+
+    this.idPatient = this.activatedRoute.snapshot.params['id'];
+
+   }
 
   ngOnInit(): void {
   }
@@ -18,6 +27,9 @@ export class DiagnosticcerveautwoComponent implements OnInit {
     }
     else
     this.result = !this.result
+  }
+  onBack(){
+    this.router.navigate(['/Doctor/patientsView',this.idPatient])
   }
 
 }

@@ -22,7 +22,7 @@
     </form>
     <div class="form">
         <button class="fonttext buttonDiag marginR" (click)="resultat()" >Result</button>
-        <button class="fonttext buttonBack" [routerLink]="['/Doctor/patientsView']">Back</button>
+        <button class="fonttext buttonBack" (click)="onBack()">Back</button>
     </div>
     <div *ngIf="result">
         <app-resultatdiagnosticcerveauone></app-resultatdiagnosticcerveauone>
