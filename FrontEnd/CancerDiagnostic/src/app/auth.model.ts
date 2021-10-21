@@ -3,7 +3,8 @@ export interface singupModel{
     username: string,
     name: string,
     password: string,
-    is_superuser: string
+    is_superuser: string,
+    nb_alertes: string
 }
 
 export interface AuthResData{
@@ -12,13 +13,15 @@ export interface AuthResData{
     name?: string,
     username: string,
     token?: string,
-    is_superuser: string
+    is_superuser: string,
+    nb_alertes: string
 }
 
 export interface loginModel{
     email: string,
     password: string,
-    is_superuser: string
+    is_superuser: string,
+    nb_alertes: string
 }
 
 export class User{
@@ -28,7 +31,8 @@ export class User{
         public username: string,
         public name: string,
         public token: string,
-        public is_superuser: string
+        public is_superuser: string,
+        public nb_alertes: string
     ){}
     
 }

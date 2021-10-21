@@ -30,7 +30,7 @@ export class AuthService{
         if(!userData){
             return;
         }
-        const loadedUser = new User(userData.user_id,userData.email,userData.username,userData.name,userData.token, userData.is_superuser)
+        const loadedUser = new User(userData.user_id,userData.email,userData.username,userData.name,userData.token, userData.is_superuser,  userData.nb_alertes)
         this.user.next(loadedUser)
         return;
     }
@@ -54,7 +54,7 @@ export class AuthService{
     }
 
     private handleAuth(res: AuthResData){
-        const user = new User(res.user_id,res.email,res.username,res.name,res.token, res.is_superuser);
+        const user = new User(res.user_id,res.email,res.username,res.name,res.token, res.is_superuser, res.nb_alertes);
         this.user.next(user);
         localStorage.setItem('user',JSON.stringify(user))
     }
