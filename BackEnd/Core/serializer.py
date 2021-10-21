@@ -12,5 +12,6 @@ class UserSerializer(serializers.ModelSerializer):
                     'name',
                     'is_active',
                     'is_staff',
+                    'nb_alertes',
                     'objects',
                     'USERNAME_FIELD')

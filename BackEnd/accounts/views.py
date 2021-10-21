@@ -24,5 +24,6 @@ class LoginView(ObtainAuthToken):
             'user_id': user.id,
             'email': user.email,
             'name': user.name,
+            'nb_alertes' : user.nb_alertes,
             'is_superuser': user.is_superuser
         })
