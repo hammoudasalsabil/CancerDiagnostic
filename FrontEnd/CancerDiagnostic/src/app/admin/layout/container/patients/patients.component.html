@@ -1,0 +1,32 @@
+<div class="body">
+
+<div>
+ <button class="btn buttonBack" (click)="onBack()">Back</button>  
+
+</div>
+<div>
+<h1 class="fonttext d-flex justify-content-center">List of patients</h1>
+
+<table class="table tab">
+  <thead class="thead-dark thead">
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">N°Patients</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr  *ngFor="let dataItem of Doctors" >
+      <th scope="row"> {{dataItem.username}}</th>
+      <th scope="row"> {{dataItem.email}}</th>
+      <th scope="row"> {{dataItem.nb_patients}} </th>
+
+    </tr>
+
+  </tbody>
+</table>
+</div>
+
+
+</div>

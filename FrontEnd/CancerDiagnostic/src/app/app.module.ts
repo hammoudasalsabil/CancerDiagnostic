@@ -13,11 +13,12 @@ import { SharedService } from './services/shared.service';
 import { AuthService } from './services/auth.service';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+import { PatientsComponent } from './admin/layout/container/patients/patients.component' ;
 
 @NgModule({
   declarations: [
     AppComponent,
-    UnlessDirective,
+    
   ],
   imports: [
     CommonModule,

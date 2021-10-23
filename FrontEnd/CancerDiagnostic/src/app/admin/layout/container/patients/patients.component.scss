@@ -1,0 +1,53 @@
+.buttonBack{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 11px;
+    color: tomato;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    border: 2px solid tomato;
+    padding: 8px 55px;
+    border-radius: 30px;
+    background: tomato;
+    color: #fff;
+  }
+  .buttonBack:hover{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 11px;
+    color: rgba(255, 99, 71, 0.616);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    border: 2px solid tomato;
+    padding: 8px 55px;
+    border-radius: 30px;
+    background: rgba(255, 99, 71, 0.418);
+    color: #fff;
+  }
+
+
+
+  .body{
+
+      display: flex;
+      // padding: 10% ;
+      margin-top: 80px;
+    background-image: url('/assets/images/imgprofil.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: contain;
+  }
+  .buttonUpd{
+      background-color: #2fb45a;
+      margin-right: 10px;
+      color: white;
+    }
+    .tab{
+      margin: 44px 200px 220px 120px;
+    }
