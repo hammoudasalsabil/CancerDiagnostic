@@ -5,7 +5,8 @@ export interface ITblUser {
     name?: string;
     token?: string;
     is_superuser: string;
-    nbrpatient:number;
+    nb_alertes:string;
+    nb_patients:string;
 
 }
 export class TblUser implements ITblUser {
@@ -16,7 +17,8 @@ export class TblUser implements ITblUser {
         public name: string,
         public token: string,
         public is_superuser: string,
-        public nbrpatient:number
+        public nb_alertes:string,
+        public nb_patients:string
 
     ){}
 } 

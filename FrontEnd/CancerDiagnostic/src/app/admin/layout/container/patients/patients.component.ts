@@ -41,12 +41,8 @@ export class PatientsComponent implements OnInit {
         if(element["is_superuser"] == "1") delete this.DoctorsList[index];
 
         if(element["is_superuser"] == "0"){  
-          this.Doctor=element;
-          this.Doctor.nbrpatient = this.getlistpatient(element.id)
-          
-          console.log("this.Doctor ==== :",this.Doctor);
-          this.Doctors.push(this.Doctor);
-          console.log("this.Doctorssss ==== :",this.Doctors);
+         
+          this.Doctors.push( this.DoctorsList[index]); 
           
         }
         
@@ -54,26 +50,6 @@ export class PatientsComponent implements OnInit {
     });
   }
 
-  getlistpatient(id){
-
-          this.service.getPatientsList().subscribe(res=>{
-            this.tblPateintList=res;
-            console.log("this.tblPateintList",this.tblPateintList)
-
-            this.nbrPatients = 0;
-            this.tblPateintList.forEach(patient=>{
-              this.tblPateint=patient;
-              console.log("id doctor:::::", id)
-              console.log("id doctor patient:::::",patient.IdUser)
-              if(patient.IdUser == id){
-                this.nbrPatients=this.nbrPatients+1;
-              }
-              
-            })            
-            
-          })
-        return this.nbrPatients
-  }
 
   onBack(){
     this.router.navigate(['/Admin'])
