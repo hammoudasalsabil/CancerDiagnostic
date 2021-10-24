@@ -20,11 +20,11 @@ class Diagnostic_breast_1(models.Model):
     IdDiagnostic = models.AutoField(primary_key=True)
     IdPatient = models.ForeignKey(Patients, on_delete=models.CASCADE)
     Age = models.IntegerField()
-    Maternite = models.CharField(max_length=100)
-    Contraception = models.CharField(max_length=100)
-    Antecedent_F = models.CharField(max_length=100)
-    Antecedent = models.CharField(max_length=100)
-    Cycle = models.CharField(max_length=100)
+    Maternite = models.IntegerField()
+    Contraception = models.IntegerField()
+    Antecedent_F = models.IntegerField()
+    Antecedent = models.IntegerField()
+    Cycle = models.IntegerField()
     IdSign = models.ForeignKey(Sign, on_delete=models.CASCADE)
     Date  = models.DateField(auto_now=True)
 
@@ -47,6 +47,7 @@ class Diagnostic_breast_2(models.Model):
     Echo = models.FileField() 
     CA15 = models.IntegerField()
     Date  = models.DateField(auto_now=True)
+    
 
 
 class Result_Dbreast_2(models.Model):
@@ -69,11 +70,11 @@ class Diagnostic_Brain_1(models.Model):
     dDiagnostic = models.AutoField(primary_key=True)
     IdPatient = models.ForeignKey(Patients, on_delete=models.CASCADE)
     Age = models.IntegerField()
-    Cephalee = models.BooleanField()
-    Vomissement = models.CharField(max_length=100)
-    Trouble_Cognitifs = models.BooleanField()
+    Cephalee = models.IntegerField()
+    Vomissement = models.IntegerField()
+    Trouble_Cognitifs = models.IntegerField()
     IdDeficitNeurologique = models.ForeignKey(Deficit_Neurologique, on_delete=models.CASCADE)
-    CriseEpilepsie = models.CharField(max_length=100)
+    CriseEpilepsie = models.IntegerField()
     Date  = models.DateField(auto_now=True)
 
 class Result_DBrain_1(models.Model):
