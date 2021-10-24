@@ -52,7 +52,7 @@ class Diagnostic_breast_2Serializer(serializers.ModelSerializer):
         fields = ('IdDiagnostic',
                 'Echo',
                 'CA15',
-                'Date',
+                
                 'IdDiagnostic1')
 
 

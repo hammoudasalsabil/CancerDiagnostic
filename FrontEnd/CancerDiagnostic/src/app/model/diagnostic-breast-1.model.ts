@@ -12,7 +12,7 @@ export interface ITblDiagBreast {
     Date?: string;
     //IdPatient?: ITblPatiens;
     IdPatient?:number;
-    IdSing?: ITblSign;
+    IdSign?: ITblSign;
 }
 export class TblDiagBreast implements ITblDiagBreast {
     constructor(
@@ -25,7 +25,7 @@ export class TblDiagBreast implements ITblDiagBreast {
         public Cycle?: string,
         public Date?: string,
         public IdPatient?: number,
-        public IdSing?: ITblSign,
+        public IdSign?: ITblSign,
 
     ){}
 }
