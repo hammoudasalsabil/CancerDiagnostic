@@ -1,17 +1,31 @@
 <div class="res">
-    <form class="form">
+    <form [formGroup]="addResForm" (ngSubmit)="accept()">
         <fieldset>
             <h2 class="colorBlue fonttext">Result</h2>
             <br>
             <div class="form-group">
-                <label class="fonttext">Modify</label>
-                <input class="form-control" type="text" ><br>
+                <label class="fonttext">Result</label>
+                <select class="form-control" formControlName = "Resultat">
+                    <!--
+                        <option *ngFor="let sign of tblSign" [ngValue]="sign.IdSign">
+                         {{sign.Sign}}
+                    </option>
+                     -->
+                     <option [ngValue]="null" selected></option>
+                    <option [ngValue]="0">Pas encore</option>
+                </select>
                 
                 <label class="fonttext">Echo_Mammographie</label>
-                <input class="form-control" type="text" ><br>
+                <select class="form-control" formControlName = "Echo">
+                   <option [ngValue]="null" selected></option>
+                    <option [ngValue]="0">Pas encore</option>
+                </select>
                 
                 <label class="fonttext">CA 15-3</label>
-                <input class="form-control" type="text" ><br>
+                <select class="form-control" formControlName = "CA15">
+                    <option [ngValue]="null" selected></option>
+                    <option [ngValue]="0">Pas encore</option>
+                </select>
             </div>
         </fieldset>
     </form>
