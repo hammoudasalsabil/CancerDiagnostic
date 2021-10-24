@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'public',
     'Core',
     'accounts',
+    'algo',
     'corsheaders'
 ]
 
