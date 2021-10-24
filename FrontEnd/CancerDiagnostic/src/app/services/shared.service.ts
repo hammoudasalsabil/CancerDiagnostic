@@ -40,7 +40,9 @@ export class SharedService {
   getSigne():Observable<any[]>{
     return this.http.get<any[]>(this.APIUrl + 'doctor/Sign/');
   }
-
+  getDeficitNeurologique():Observable<any[]>{
+    return this.http.get<any[]>(this.APIUrl + 'doctor/Deficit_Neurologique/');
+  }
   getDiagnosticBreastOne():Observable<any[]>{
     return this.http.get<any[]>(this.APIUrl + 'doctor/Diagnostic_Breast_1/');
   }

@@ -6,6 +6,7 @@ import { User } from 'src/app/auth.model';
 import { AuthService } from 'src/app/services/auth.service';
 import {SharedService} from 'src/app/services/shared.service';
 import { ITblPatiens } from 'src/app/model/patient.model';
+import { ITblUser } from 'src/app/model/user.model';
 
 @Component({
   selector: 'app-patientadd',
@@ -18,6 +19,7 @@ export class PatientaddComponent implements OnInit {
   userSub: Subscription;
   addpatientForm: FormGroup;
   tblpatient: ITblPatiens;
+  tbluser:ITblUser;
 
   constructor(private service:SharedService, private authService:AuthService,private router: Router) { }
 
@@ -27,6 +29,8 @@ export class PatientaddComponent implements OnInit {
     this.userSub = this.authService.user.subscribe(
       (data: User) => {
         this.user = data
+        console.log("User est :",data)
+      console.log("nbrPatient de user  est: ",data.nb_patients)
       }
     )
     this.addpatientForm = new FormGroup({
@@ -43,6 +47,10 @@ export class PatientaddComponent implements OnInit {
     console.log("this.addpatientForm.value",this.addpatientForm.value);
     console.log("this.tblpatient",this.tblpatient);
     this.service.addPatient(this.tblpatient).subscribe(res=>{
+      this.user.nb_patients = this.user.nb_patients+ 1;
+      console.log("nbrPatient de user  est: ",this.user.nb_patients)
+      this.service.updateUser(this.user).subscribe(res=>{
+      });
     });
   }
 
