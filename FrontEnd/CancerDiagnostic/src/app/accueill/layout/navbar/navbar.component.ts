@@ -10,6 +10,8 @@ import { Subscription } from 'rxjs';
 })
 export class NavbarComponent implements OnInit {
   isAuthenticated:boolean = false;
+  isdoc : boolean = false;
+  isadmin : boolean = false;
   user: User;
   private userSub: Subscription;
   constructor(private authService: AuthService,  private router: Router ) { }
@@ -22,6 +24,12 @@ export class NavbarComponent implements OnInit {
       this.userSub = this.authService.user.subscribe(
         (data: User) => {
           this.user = data
+          if (this.user.is_superuser){
+            this.isadmin = true
+          }else{
+            this.isdoc = true
+          }
+          
         }
       )}
   }

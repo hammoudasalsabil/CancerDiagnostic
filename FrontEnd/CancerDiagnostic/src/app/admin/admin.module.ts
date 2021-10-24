@@ -17,7 +17,8 @@ import { AjouterAdminComponent } from './layout/container/administrator/ajouter-
 import { SharedService } from 'src/app/services/shared.service';
 import { DoctoraddComponent } from './layout/container/doctoradd/doctoradd.component';
 import { DoctoreditComponent } from './layout/container/doctoredit/doctoredit.component';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { PatientsComponent } from './layout/container/patients/patients.component';
 // const adminRoute : Routes = [
 //  {
 //    path:'',component:LayoutComponent,
@@ -33,6 +34,7 @@ import { DoctoreditComponent } from './layout/container/doctoredit/doctoredit.co
     NavbarComponent,
     FooterComponent,
     SidbarComponent,
+    PatientsComponent,
     //AjouterUserComponent,
     //AjoutermedecinComponent,
     ProfiladminComponent,
@@ -48,7 +50,9 @@ import { DoctoreditComponent } from './layout/container/doctoredit/doctoredit.co
     HttpClientModule,
     BrowserModule,
     //RouterModule.forChild(adminRoute)
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [SharedService],
 })

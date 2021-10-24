@@ -1,28 +1,59 @@
 <div class="diagSien">
-    <h1 class="fonttext d-flex justify-content-center">Brain Diagnosis</h1>
-    <form class="form">
+    <h1 class="fonttext d-flex justify-content-center">Brain Diagnosis 1</h1>
+    <form  [formGroup]="addDiagForm" (ngSubmit)="addDiag()">
         <div class="form-group">
             <label class="fonttext">Age</label>
-            <input class="form-control" type="text" ><br>
+            <select class="form-control" formControlName = "Age" required>
+                    <option [ngValue]="null" selected></option>
+                    <option [ngValue]="0">[0-10]</option>
+                    <option [ngValue]="1">[11-25]</option>
+                    <option [ngValue]="2">[26-35]</option>
+                    <option [ngValue]="3">[36-55]</option>
+                    <option [ngValue]="4">[56-85]</option>
+                    <option [ngValue]="5">[86-..]</option>
+                </select><br>
             
-            <label class="fonttext">Headache</label>
-            <input class="form-control" type="text" ><br>
+            <label class="fonttext">Vomissement</label>
+            <select class="form-control" formControlName = "Vomissement">
+                    <option [ngValue]="null" selected></option>
+                    <option [ngValue]="0">Avec nausée</option>
+                    <option [ngValue]="1">Sans nausée</option>
+                    <option [ngValue]="2">Incoercible</option>
+            </select><br>
             
-            <label class="fonttext">Vomiting</label>
-            <input class="form-control" type="text" ><br>
+            <label class="fonttext">Crise Epilepsie</label>
+            <select class="form-control" formControlName = "CriseEpilepsie">
+                    <option [ngValue]="null" selected></option>
+                    <option [ngValue]="0">Non</option>
+                    <option [ngValue]="1">Oui</option>
+            </select><br>
             
-            <label class="fonttext">Cognitive Disorders</label>
-            <input class="form-control" type="text" ><br>
+            <label class="fonttext">Cephalee</label>
+            <select class="form-control" formControlName = "Cephalee">
+                    <option [ngValue]="null" selected></option>
+                    <option [ngValue]="0">Non</option>
+                    <option [ngValue]="1">Oui</option>
+            </select><br>
             
-            <label class="fonttext">Epileptic crisis</label>
-            <input class="form-control" type="text" ><br>
-            
+            <label class="fonttext">Trouble_Cognitifs</label>
+            <select class="form-control" formControlName = "Trouble_Cognitifs">
+                    <option [ngValue]="null" selected></option>
+                    <option [ngValue]="0">Non</option>
+                    <option [ngValue]="1">Oui</option>
+            </select><br>
+
+            <label class="fonttext">IdDeficitNeurologique</label>
+            <select class="form-control" formControlName = "IdDeficitNeurologique">
+                    <option *ngFor="let DeficitNeurologique of tblDeficitNeurologique" [ngValue]="DeficitNeurologique.IdType">
+                         {{DeficitNeurologique.Type}}
+                    </option>
+                </select><br>
         </div>
         
     </form>
     <div class="form">
-        <button class="fonttext buttonDiag marginR" (click)="resultat()" >Result</button>
-        <button class="fonttext buttonBack" [routerLink]="['/Doctor/patientsView']">Back</button>
+        <button class="fonttext buttonDiag marginR" (click)="addDiag()" >Result</button>
+        <button class="fonttext buttonBack" (click)="onBack()">Back</button>
     </div>
     <div *ngIf="result">
         <app-resultatdiagnosticcerveauone></app-resultatdiagnosticcerveauone>

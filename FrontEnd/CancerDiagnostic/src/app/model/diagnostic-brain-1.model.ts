@@ -9,6 +9,7 @@ export interface ITblDiagBain {
     Cephalee?:boolean;
     Trouble_Cognitifs?:boolean;
     IdDeficitNeurologique?:number;
+    IdPatient?:number;
 }
 export class TblDiagBain implements ITblDiagBain {
     constructor(
@@ -20,6 +21,7 @@ export class TblDiagBain implements ITblDiagBain {
         public Cephalee?:boolean,
         public Trouble_Cognitifs?:boolean,
         public IdDeficitNeurologique?:number,
+        public IdPatient?: number,
 
     ){}
 }

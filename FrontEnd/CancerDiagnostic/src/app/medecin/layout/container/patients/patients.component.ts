@@ -17,6 +17,7 @@ export class PatientsComponent implements OnInit {
   user: User;
   userSub: Subscription;
   patient: any;
+  nbx:string="1";
   constructor(private service:SharedService, private authService:AuthService,private router: Router) { }
 
   ngOnInit(): void {
@@ -24,6 +25,9 @@ export class PatientsComponent implements OnInit {
     this.userSub = this.authService.user.subscribe(
       (data: User) => {
         this.user = data
+        console.log("User est :",data)
+        
+      console.log("nbrPatient de user  est: ",this.user.nb_patients)
       }
     )
   }
@@ -65,9 +69,15 @@ export class PatientsComponent implements OnInit {
     if(confirm==true){
 
       this.service.deletePatient(id).subscribe(res=>{
-        //alert(res.toString());
+        this.user.nb_patients = this.user.nb_patients- 1;
+
+        this.router.navigate(['/Doctor/patients'])
+        console.log("nbrPatient de user  est: ",this.user.nb_patients)
+        this.service.updateUser(this.user).subscribe(res=>{
         });
-      this.router.navigate(['/Doctor/patients'])
+      
+        //alert(res.toString());
+      });
     }
     
   }

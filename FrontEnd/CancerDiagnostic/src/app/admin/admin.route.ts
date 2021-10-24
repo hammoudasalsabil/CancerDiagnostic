@@ -7,7 +7,8 @@ import { NotificationComponent } from './layout/container/notification/notificat
 import { AjouterAdminComponent } from './layout/container/administrator/ajouter-admin/ajouter-admin.component';
 import { DoctoraddComponent } from './layout/container/doctoradd/doctoradd.component';
 import { DoctoreditComponent } from './layout/container/doctoredit/doctoredit.component';
-
+import { PatientsComponent } from './layout/container/patients/patients.component';
+                                  
 
 // const adminRoute : Routes = [
 //   {
@@ -29,7 +30,8 @@ const adminRoute : Routes = [
       {path:'notification',component:NotificationComponent},
       {path:'ajouterAdmin',component:AjouterAdminComponent},
       {path:'addDoctor',component:DoctoraddComponent},
-      {path:'editDoctor',component:DoctoreditComponent},
+      {path:'editDoctor/:id',component:DoctoreditComponent},
+      {path:'patientsList',component:PatientsComponent},
     ]
   } 
  ]

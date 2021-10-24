@@ -1,5 +1,5 @@
 <div class="diagSien">
-    <h1 class="fonttext d-flex justify-content-center">Diagnostic</h1>
+    <h1 class="fonttext d-flex justify-content-center">Breast Diagnosis 1</h1>
     <form [formGroup]="addDiagForm" (ngSubmit)="addDiag()">
         <div class="form-group">
             <!--
@@ -38,7 +38,7 @@
     </form>
     <div class="form">
         <button class="fonttext buttonDiag marginR" (click)="addDiag()" >Result</button>
-        <button class="fonttext buttonBack" [routerLink]="['/Doctor/patientsView']">Back</button>
+        <button class="fonttext buttonBack" (click)="onBack()">Back</button>
     </div>
     <div *ngIf="result">
         <app-resultatdiagnosticseinone></app-resultatdiagnosticseinone>

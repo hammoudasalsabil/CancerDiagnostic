@@ -61,11 +61,18 @@ export class DoctorComponent implements OnInit {
     });
    }
 
-  onShow(){
-  this.router.navigate(['/Admin/editDoctor'])
+  onShow(id:number){
+  this.router.navigate(['/Admin/editDoctor',id])
   }
 
-  onDelet(){
-  this.router.navigate(['/Admin'])
+  onDelet(id:number){
+    let confirm=window.confirm('are you sure?')
+    if(confirm==true){
+
+      this.service.deleteUser(id).subscribe(res=>{
+        this.router.navigate(['/Admin/doctor'])
+        });
+      
+    }
   }
 }
