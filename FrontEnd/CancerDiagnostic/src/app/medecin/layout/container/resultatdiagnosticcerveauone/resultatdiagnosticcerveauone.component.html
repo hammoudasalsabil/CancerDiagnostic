@@ -1,21 +1,70 @@
-
+<!--
+    
 <div class="res">
-    <form class="form">
+    <form [formGroup]="addpatientForm" (ngSubmit)="accept()">
         <fieldset>
             <h2 class="colorBlue fonttext">Result</h2>
             <br>
             <div class="form-group">
-                <label class="fonttext">Modify</label>
-                <input class="form-control" type="text" ><br>
+                <label class="fonttext">Resultat</label>
+                <select class="form-control" formControlName = "Resultat">      
+                    <option selected> {{tblResultdiagcerveauone.Resultat}}</option>
+                    <option >Pas encore</option>
+                    <option >encore</option>
+                </select>
+                 <br>
                 
-                <label class="fonttext">Echo_Mammographie</label>
-                <input class="form-control" type="text" ><br>
+                <label class="fonttext">IRM</label>
+                <select class="form-control" formControlName = "IRM">      
+                    <option selected> {{tblResultdiagcerveauone.IRM}}</option>
+                    <option >Pas encore</option>
+                    <option >encore</option>
+                </select>
+                 <br>
                 
-                <label class="fonttext">CA 15-3</label>
-                <input class="form-control" type="text" ><br>
             </div>
         </fieldset>
+        
+        <div class="form"><button type="submit" class="buttonDiag buttonAccepter" >Accept</button></div>
     </form>
-    <div class="form"><button class="buttonDiag buttonAccepter" (click)="accept()" >Accept</button></div>
     
 </div>
+-->
+<div class="res">
+    <form [formGroup]="addpatientForm" (ngSubmit)="accept()">
+        <fieldset>
+            <h2 class="colorBlue fonttext d-flex justify-content-center">Result Brain Diagnosis 1</h2>
+            <br>
+            <div class="form-group">
+                <div class="form-group row">
+    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext" hidden>IRM</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control form-control-lg"  formControlName  = "IRM" name="lastname" required hidden>
+    </div>
+  </div>
+  <br>
+  <label class="fonttext">Resultat</label>
+        <select class="form-control" formControlName = "Resultat">      
+            <option selected> {{tblResultdiagcerveauone.Resultat}}</option>
+            <option >Pas encore</option>
+            <option >encore</option>
+        </select>
+
+  <br>
+
+    <label class="fonttext">IRM</label>
+        <select class="form-control" formControlName = "IRM">      
+            <option selected> {{tblResultdiagcerveauone.IRM}}</option>
+            <option >Pas encore</option>
+            <option >encore</option>
+        </select>
+
+  <br>
+   
+  <br>
+
+    <div class="form"><button type="submit" class="buttonDiag buttonAccepter" (click)="accept()" >Accept</button></div>
+      </div>
+        </fieldset>
+    </form>
+    </div>
