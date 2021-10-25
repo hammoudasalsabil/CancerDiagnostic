@@ -9,23 +9,64 @@
             
             --> 
             <label class="fonttext">Age</label>
-            <input type="text" formControlName  = "Age" name="age" class="form-control" required><br>
+            <select class="form-control" formControlName = "Age" required>
+                    <option [ngValue]="null" selected></option>
+                    <option [ngValue]="0">[0-10]</option>
+                    <option [ngValue]="1">[11-25]</option>
+                    <option [ngValue]="2">[26-35]</option>
+                    <option [ngValue]="3">[36-55]</option>
+                    <option [ngValue]="4">[56-85]</option>
+                    <option [ngValue]="5">[86-..]</option>
+            </select><br>
             
             <label class="fonttext">Maternity</label>
-            <input type="text" formControlName  = "Maternite" name="maternity" class="form-control" required><br>
+            <select class="form-control" formControlName = "Maternite">
+                    <option [ngValue]="null" selected></option>
+                    <option [ngValue]="0">Mère</option>
+                    <option [ngValue]="1">Fille</option>
+                    <option [ngValue]="2">Ancente</option>
+                    <option [ngValue]="3">Marie et pas d'enfants</option>
+            </select><br>
             
             <label class="fonttext">Contraception</label>
-            <input type="text" formControlName  = "Contraception" name="contraception" class="form-control" required><br>
+            <select class="form-control" formControlName = "Contraception">
+                    <option [ngValue]="null" selected></option>
+                    <option [ngValue]="0">Aucun</option>
+                    <option [ngValue]="1">Pilule</option>
+                    <option [ngValue]="2">Injection</option>
+                    <option [ngValue]="3">Stérilet</option>
+            </select><br>
             
             <label class="fonttext">Antecedent_F</label>
-            <input type="text" formControlName  = "Antecedent_F" name="antecedent_F" class="form-control" required><br>
-            
+            <select class="form-control" formControlName = "Antecedent_F" required>
+                    <option [ngValue]="null" selected></option>
+                    <option [ngValue]="0">non</option>
+                    <option [ngValue]="1">Dans les deux familles</option>
+                    <option [ngValue]="2">Dans la famille du père</option>
+                    <option [ngValue]="3">Dans la famille de la mère</option>
+                    <option [ngValue]="4">Dans la famille (soeur/frère)</option>
+                    <option [ngValue]="5">En famille (enfants)</option>
+            </select><br>
+
             <label class="fonttext">Antecedent</label>
-            <input type="text" formControlName  = "Antecedent" name="antecedent" class="form-control" required><br>
+            <select class="form-control" formControlName = "Antecedent" required>
+                    <option [ngValue]="null" selected></option>
+                    <option [ngValue]="0">non</option>
+                    <option [ngValue]="1">Dans dans autre organe</option>
+                    <option [ngValue]="2">Dans la même sein</option>
+                    <option [ngValue]="3">Dans l'autre sein</option>
+                    <option [ngValue]="4">Dans les deux seins</option>
+            </select><br>
             
             <label class="fonttext">Cycle</label>
-            <input type="text" formControlName  = "Cycle" name="cycle" class="form-control" required><br>
-             </div>
+            <select class="form-control" formControlName = "Cycle" required>
+                    <option [ngValue]="null" selected></option>
+                    <option [ngValue]="0">Pas encore</option>
+                    <option [ngValue]="1">Irrégulier</option>
+                    <option [ngValue]="2">Régulier</option>
+                    <option [ngValue]="3">Ménopause</option>
+            </select><br>
+        </div>
         <div class="form-group">
             <label class="fonttext">Sign</label>
                 <select class="form-control" formControlName = "IdSign">
