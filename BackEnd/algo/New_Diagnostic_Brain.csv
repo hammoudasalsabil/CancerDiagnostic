@@ -1,0 +1,1200 @@
+,Age,Cephalee,Vomissement,Trouble_Cognitif,Crise_Epilepsie,Deficit_Neurologique,Resultat
+0,[0-10] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+1,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+2,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+3,[0-10] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+4,[0-10] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+5,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+6,[0-10] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+7,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+8,[0-10] ans,Cephalee,non Vomissement,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+9,[11-25] ans,Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite,probability
+10,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+11,[11-25] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+12,[11-25] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,30004,probability
+13,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+14,[11-25] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+15,[11-25] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+16,[11-25] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+17,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+18,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+19,[26-35] ans,non Cephalee,Vomissement incoercible,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+20,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+21,[26-35] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,10002,probability
+22,[26-35] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+23,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+24,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+25,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+26,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+27,[36-55] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+28,[36-55] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+29,[36-55] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+30,[36-55] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+31,[36-55] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+32,[36-55] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+33,[36-55] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+34,[56-85] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+35,[56-85] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+36,[56-85] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+37,[56-85] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+38,[56-85] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+39,[56-85] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+40,[56-85] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+41,[56-85] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+42,[56-85] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+43,[85-...] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+44,[85-...] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+45,[85-...] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+46,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+47,[85-...] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+48,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+49,[85-...] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+50,[85-...] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+51,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+52,[11-25] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+53,[11-25] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+54,[11-25] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+55,[11-25] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+56,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+57,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+58,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+59,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+60,[36-55] ans,Cephalee,non Vomissement,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+61,[0-10] ans,Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite,probability
+62,[0-10] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+63,[0-10] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+64,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,30004,probability
+65,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+66,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+67,[56-85] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+68,[36-55] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+69,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+70,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+71,[85-...] ans,non Cephalee,Vomissement incoercible,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+72,[85-...] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+73,[56-85] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,10002,probability
+74,[36-55] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+75,[11-25] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+76,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+77,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+78,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+79,[36-55] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+80,[56-85] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+81,[36-55] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+82,[56-85] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+83,[36-55] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+84,[36-55] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+85,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+86,[26-35] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+87,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+88,[0-10] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+89,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+90,[56-85] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+91,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+92,[11-25] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+93,[11-25] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+94,[56-85] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+95,[85-...] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+96,[85-...] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+97,[85-...] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+98,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+99,[85-...] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+100,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+101,[85-...] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+102,[85-...] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+103,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+104,[0-10] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+105,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+106,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+107,[0-10] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+108,[0-10] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+109,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+110,[0-10] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+111,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+112,[0-10] ans,Cephalee,non Vomissement,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+113,[11-25] ans,Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite,probability
+114,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+115,[11-25] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+116,[11-25] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,30004,probability
+117,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+118,[11-25] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+119,[11-25] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+120,[11-25] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+121,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+122,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+123,[26-35] ans,non Cephalee,Vomissement incoercible,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+124,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+125,[26-35] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,10002,probability
+126,[26-35] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+127,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+128,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+129,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+130,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+131,[36-55] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+132,[36-55] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+133,[36-55] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+134,[36-55] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+135,[36-55] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+136,[36-55] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+137,[36-55] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+138,[56-85] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+139,[56-85] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+140,[56-85] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+141,[56-85] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+142,[56-85] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+143,[56-85] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+144,[56-85] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+145,[85-...] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+146,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+147,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+148,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+149,[26-35] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+150,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+151,[26-35] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+152,[26-35] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+153,[85-...] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+154,[11-25] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+155,[26-35] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+156,[0-10] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+157,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+158,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+159,[0-10] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+160,[0-10] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+161,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+162,[0-10] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+163,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+164,[0-10] ans,Cephalee,non Vomissement,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+165,[11-25] ans,Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite,probability
+166,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+167,[11-25] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+168,[11-25] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,30004,probability
+169,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+170,[11-25] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+171,[11-25] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+172,[11-25] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+173,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+174,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+175,[26-35] ans,non Cephalee,Vomissement incoercible,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+176,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+177,[26-35] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,10002,probability
+178,[26-35] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+179,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+180,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+181,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+182,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+183,[36-55] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+184,[36-55] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+185,[36-55] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+186,[36-55] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+187,[36-55] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+188,[36-55] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+189,[36-55] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+190,[56-85] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+191,[56-85] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+192,[56-85] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+193,[56-85] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+194,[56-85] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+195,[56-85] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+196,[56-85] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+197,[56-85] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+198,[56-85] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+199,[85-...] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+200,[85-...] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+201,[85-...] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+202,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+203,[85-...] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+204,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+205,[85-...] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+206,[85-...] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+207,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+208,[11-25] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+209,[11-25] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+210,[11-25] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+211,[11-25] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+212,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+213,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+214,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+215,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+216,[36-55] ans,Cephalee,non Vomissement,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+217,[0-10] ans,Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite,probability
+218,[0-10] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+219,[0-10] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+220,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,30004,probability
+221,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+222,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+223,[56-85] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+224,[36-55] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+225,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+226,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+227,[85-...] ans,non Cephalee,Vomissement incoercible,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+228,[85-...] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+229,[56-85] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,10002,probability
+230,[36-55] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+231,[11-25] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+232,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+233,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+234,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+235,[36-55] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+236,[56-85] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+237,[36-55] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+238,[56-85] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+239,[36-55] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+240,[36-55] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+241,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+242,[26-35] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+243,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+244,[0-10] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+245,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+246,[56-85] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+247,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+248,[11-25] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+249,[11-25] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+250,[56-85] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+251,[85-...] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+252,[85-...] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+253,[85-...] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+254,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+255,[85-...] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+256,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+257,[85-...] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+258,[85-...] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+259,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+260,[0-10] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+261,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+262,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+263,[0-10] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+264,[0-10] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+265,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+266,[0-10] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+267,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+268,[0-10] ans,Cephalee,non Vomissement,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+269,[11-25] ans,Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite,probability
+270,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+271,[11-25] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+272,[11-25] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,30004,probability
+273,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+274,[11-25] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+275,[11-25] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+276,[11-25] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+277,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+278,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+279,[26-35] ans,non Cephalee,Vomissement incoercible,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+280,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+281,[26-35] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,10002,probability
+282,[26-35] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+283,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+284,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+285,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+286,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+287,[36-55] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+288,[36-55] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+289,[36-55] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+290,[36-55] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+291,[36-55] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+292,[36-55] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+293,[36-55] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+294,[56-85] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+295,[56-85] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+296,[56-85] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+297,[56-85] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+298,[56-85] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+299,[56-85] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+300,[56-85] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+301,[85-...] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+302,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+303,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+304,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+305,[26-35] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+306,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+307,[26-35] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+308,[26-35] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+309,[85-...] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+310,[11-25] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+311,[26-35] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+312,[0-10] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+313,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+314,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+315,[0-10] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+316,[0-10] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+317,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+318,[0-10] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+319,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+320,[0-10] ans,Cephalee,non Vomissement,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+321,[11-25] ans,Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite,probability
+322,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+323,[11-25] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+324,[11-25] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,30004,probability
+325,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+326,[11-25] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+327,[11-25] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+328,[11-25] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+329,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+330,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+331,[26-35] ans,non Cephalee,Vomissement incoercible,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+332,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+333,[26-35] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,10002,probability
+334,[26-35] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+335,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+336,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+337,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+338,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+339,[36-55] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+340,[36-55] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+341,[36-55] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+342,[36-55] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+343,[36-55] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+344,[36-55] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+345,[36-55] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+346,[56-85] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+347,[56-85] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+348,[56-85] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+349,[56-85] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+350,[56-85] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+351,[56-85] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+352,[56-85] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+353,[56-85] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+354,[56-85] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+355,[85-...] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+356,[85-...] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+357,[85-...] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+358,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+359,[85-...] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+360,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+361,[85-...] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+362,[85-...] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+363,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+364,[11-25] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+365,[11-25] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+366,[11-25] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+367,[11-25] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+368,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+369,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+370,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+371,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+372,[36-55] ans,Cephalee,non Vomissement,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+373,[0-10] ans,Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite,probability
+374,[0-10] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+375,[0-10] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+376,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,30004,probability
+377,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+378,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+379,[56-85] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+380,[36-55] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+381,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+382,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+383,[85-...] ans,non Cephalee,Vomissement incoercible,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+384,[85-...] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+385,[56-85] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,10002,probability
+386,[36-55] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+387,[11-25] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+388,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+389,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+390,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+391,[36-55] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+392,[56-85] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+393,[36-55] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+394,[56-85] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+395,[36-55] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+396,[36-55] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+397,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+398,[26-35] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+399,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+400,[0-10] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+401,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+402,[56-85] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+403,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+404,[11-25] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+405,[11-25] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+406,[56-85] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+407,[85-...] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+408,[85-...] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+409,[85-...] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+410,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+411,[85-...] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+412,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+413,[85-...] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+414,[85-...] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+415,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+416,[0-10] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+417,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+418,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+419,[0-10] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+420,[0-10] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+421,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+422,[0-10] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+423,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+424,[0-10] ans,Cephalee,non Vomissement,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+425,[11-25] ans,Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite,probability
+426,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+427,[11-25] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+428,[11-25] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,30004,probability
+429,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+430,[11-25] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+431,[11-25] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+432,[11-25] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+433,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+434,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+435,[26-35] ans,non Cephalee,Vomissement incoercible,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+436,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+437,[26-35] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,10002,probability
+438,[26-35] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+439,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+440,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+441,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+442,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+443,[36-55] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+444,[36-55] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+445,[36-55] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+446,[36-55] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+447,[36-55] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+448,[36-55] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+449,[36-55] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+450,[56-85] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+451,[56-85] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+452,[56-85] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+453,[56-85] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+454,[56-85] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+455,[56-85] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+456,[56-85] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+457,[85-...] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+458,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+459,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+460,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+461,[26-35] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+462,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+463,[26-35] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+464,[26-35] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+465,[85-...] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+466,[11-25] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+467,[26-35] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+468,[0-10] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+469,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+470,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+471,[0-10] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+472,[0-10] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+473,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+474,[0-10] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+475,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+476,[0-10] ans,Cephalee,non Vomissement,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+477,[11-25] ans,Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite,probability
+478,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+479,[11-25] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+480,[11-25] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,30004,probability
+481,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+482,[11-25] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+483,[11-25] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+484,[11-25] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+485,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+486,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+487,[26-35] ans,non Cephalee,Vomissement incoercible,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+488,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+489,[26-35] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,10002,probability
+490,[26-35] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+491,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+492,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+493,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+494,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+495,[36-55] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+496,[36-55] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+497,[36-55] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+498,[36-55] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+499,[36-55] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+500,[36-55] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+501,[36-55] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+502,[56-85] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+503,[56-85] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+504,[56-85] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+505,[56-85] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+506,[56-85] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+507,[56-85] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+508,[56-85] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+509,[56-85] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+510,[56-85] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+511,[85-...] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+512,[85-...] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+513,[85-...] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+514,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+515,[85-...] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+516,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+517,[85-...] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+518,[85-...] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+519,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+520,[11-25] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+521,[11-25] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+522,[11-25] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+523,[11-25] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+524,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+525,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+526,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+527,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+528,[36-55] ans,Cephalee,non Vomissement,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+529,[0-10] ans,Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite,probability
+530,[0-10] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+531,[0-10] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+532,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,30004,probability
+533,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+534,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+535,[56-85] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+536,[36-55] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+537,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+538,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+539,[85-...] ans,non Cephalee,Vomissement incoercible,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+540,[85-...] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+541,[56-85] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,10002,probability
+542,[36-55] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+543,[11-25] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+544,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+545,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+546,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+547,[36-55] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+548,[56-85] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+549,[36-55] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+550,[56-85] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+551,[36-55] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+552,[36-55] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+553,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+554,[26-35] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+555,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+556,[0-10] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+557,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+558,[56-85] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+559,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+560,[11-25] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+561,[11-25] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+562,[56-85] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+563,[85-...] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+564,[85-...] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+565,[85-...] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+566,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+567,[85-...] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+568,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+569,[85-...] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+570,[85-...] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+571,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+572,[0-10] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+573,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+574,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+575,[0-10] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+576,[0-10] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+577,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+578,[0-10] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+579,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+580,[0-10] ans,Cephalee,non Vomissement,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+581,[11-25] ans,Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite,probability
+582,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+583,[11-25] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+584,[11-25] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,30004,probability
+585,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+586,[11-25] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+587,[11-25] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+588,[11-25] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+589,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+590,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+591,[26-35] ans,non Cephalee,Vomissement incoercible,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+592,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+593,[26-35] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,10002,probability
+594,[26-35] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+595,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+596,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+597,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+598,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+599,[36-55] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+600,[36-55] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+601,[36-55] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+602,[36-55] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+603,[36-55] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+604,[36-55] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+605,[36-55] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+606,[56-85] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+607,[56-85] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+608,[56-85] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+609,[56-85] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+610,[56-85] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+611,[56-85] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+612,[56-85] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+613,[85-...] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+614,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+615,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+616,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+617,[26-35] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+618,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+619,[26-35] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+620,[26-35] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+621,[85-...] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+622,[11-25] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+623,[26-35] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+624,[0-10] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+625,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+626,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+627,[0-10] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+628,[0-10] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+629,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+630,[0-10] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+631,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+632,[0-10] ans,Cephalee,non Vomissement,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+633,[11-25] ans,Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite,probability
+634,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+635,[11-25] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+636,[11-25] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,30004,probability
+637,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+638,[11-25] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+639,[11-25] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+640,[11-25] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+641,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+642,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+643,[26-35] ans,non Cephalee,Vomissement incoercible,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+644,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+645,[26-35] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,10002,probability
+646,[26-35] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+647,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+648,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+649,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+650,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+651,[36-55] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+652,[36-55] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+653,[36-55] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+654,[36-55] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+655,[36-55] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+656,[36-55] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+657,[36-55] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+658,[56-85] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+659,[56-85] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+660,[56-85] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+661,[56-85] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+662,[56-85] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+663,[56-85] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+664,[56-85] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+665,[56-85] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+666,[56-85] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+667,[85-...] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+668,[85-...] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+669,[85-...] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+670,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+671,[85-...] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+672,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+673,[85-...] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+674,[85-...] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+675,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+676,[11-25] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+677,[11-25] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+678,[11-25] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+679,[11-25] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+680,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+681,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+682,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+683,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+684,[36-55] ans,Cephalee,non Vomissement,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+685,[0-10] ans,Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite,probability
+686,[0-10] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+687,[0-10] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+688,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,30004,probability
+689,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+690,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+691,[56-85] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+692,[36-55] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+693,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+694,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+695,[85-...] ans,non Cephalee,Vomissement incoercible,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+696,[85-...] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+697,[56-85] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,10002,probability
+698,[36-55] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+699,[11-25] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+700,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+701,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+702,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+703,[36-55] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+704,[56-85] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+705,[36-55] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+706,[56-85] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+707,[36-55] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+708,[36-55] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+709,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+710,[26-35] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+711,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+712,[0-10] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+713,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+714,[56-85] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+715,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+716,[11-25] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+717,[11-25] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+718,[56-85] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+719,[85-...] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+720,[85-...] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+721,[85-...] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+722,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+723,[85-...] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+724,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+725,[85-...] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+726,[85-...] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+727,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+728,[0-10] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+729,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+730,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+731,[0-10] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+732,[0-10] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+733,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+734,[0-10] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+735,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+736,[0-10] ans,Cephalee,non Vomissement,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+737,[11-25] ans,Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite,probability
+738,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+739,[11-25] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+740,[11-25] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,30004,probability
+741,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+742,[11-25] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+743,[11-25] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+744,[11-25] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+745,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+746,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+747,[26-35] ans,non Cephalee,Vomissement incoercible,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+748,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+749,[26-35] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,10002,probability
+750,[26-35] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+751,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+752,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+753,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+754,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+755,[36-55] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+756,[36-55] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+757,[36-55] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+758,[36-55] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+759,[36-55] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+760,[36-55] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+761,[36-55] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+762,[56-85] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+763,[56-85] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+764,[56-85] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+765,[56-85] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+766,[56-85] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+767,[56-85] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+768,[56-85] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+769,[85-...] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+770,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+771,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+772,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+773,[26-35] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+774,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+775,[26-35] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+776,[26-35] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+777,[85-...] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+778,[11-25] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+779,[26-35] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+780,[0-10] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+781,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+782,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+783,[0-10] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+784,[0-10] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+785,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+786,[0-10] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+787,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+788,[0-10] ans,Cephalee,non Vomissement,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+789,[11-25] ans,Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite,probability
+790,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+791,[11-25] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+792,[11-25] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,30004,probability
+793,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+794,[11-25] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+795,[11-25] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+796,[11-25] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+797,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+798,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+799,[26-35] ans,non Cephalee,Vomissement incoercible,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+800,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+801,[26-35] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,10002,probability
+802,[26-35] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+803,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+804,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+805,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+806,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+807,[36-55] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+808,[36-55] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+809,[36-55] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+810,[36-55] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+811,[36-55] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+812,[36-55] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+813,[36-55] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+814,[56-85] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+815,[56-85] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+816,[56-85] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+817,[56-85] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+818,[56-85] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+819,[56-85] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+820,[56-85] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+821,[56-85] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+822,[56-85] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+823,[85-...] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+824,[85-...] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+825,[85-...] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+826,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+827,[85-...] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+828,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+829,[85-...] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+830,[85-...] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+831,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+832,[11-25] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+833,[11-25] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+834,[11-25] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+835,[11-25] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+836,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+837,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+838,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+839,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+840,[36-55] ans,Cephalee,non Vomissement,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+841,[0-10] ans,Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite,probability
+842,[0-10] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+843,[0-10] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+844,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,30004,probability
+845,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+846,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+847,[56-85] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+848,[36-55] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+849,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+850,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+851,[85-...] ans,non Cephalee,Vomissement incoercible,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+852,[85-...] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+853,[56-85] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,10002,probability
+854,[36-55] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+855,[11-25] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+856,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+857,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+858,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+859,[36-55] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+860,[56-85] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+861,[36-55] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+862,[56-85] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+863,[36-55] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+864,[36-55] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+865,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+866,[26-35] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+867,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+868,[0-10] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+869,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+870,[56-85] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+871,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+872,[11-25] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+873,[11-25] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+874,[56-85] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+875,[85-...] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+876,[85-...] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+877,[85-...] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+878,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+879,[85-...] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+880,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+881,[85-...] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+882,[85-...] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+883,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+884,[0-10] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+885,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+886,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+887,[0-10] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+888,[0-10] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+889,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+890,[0-10] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+891,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+892,[0-10] ans,Cephalee,non Vomissement,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+893,[11-25] ans,Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite,probability
+894,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+895,[11-25] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+896,[11-25] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,30004,probability
+897,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+898,[11-25] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+899,[11-25] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+900,[11-25] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+901,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+902,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+903,[26-35] ans,non Cephalee,Vomissement incoercible,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+904,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+905,[26-35] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,10002,probability
+906,[26-35] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+907,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+908,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+909,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+910,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+911,[36-55] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+912,[36-55] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+913,[36-55] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+914,[36-55] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+915,[36-55] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+916,[36-55] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+917,[36-55] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+918,[56-85] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+919,[56-85] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+920,[56-85] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+921,[56-85] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+922,[56-85] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+923,[56-85] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+924,[56-85] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+925,[85-...] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+926,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+927,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+928,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+929,[26-35] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+930,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+931,[26-35] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+932,[26-35] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+933,[85-...] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+934,[11-25] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+935,[26-35] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+936,[0-10] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+937,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+938,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+939,[0-10] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+940,[0-10] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+941,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+942,[0-10] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+943,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+944,[0-10] ans,Cephalee,non Vomissement,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+945,[11-25] ans,Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite,probability
+946,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+947,[11-25] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+948,[11-25] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,30004,probability
+949,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+950,[11-25] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+951,[11-25] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+952,[11-25] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+953,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+954,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+955,[26-35] ans,non Cephalee,Vomissement incoercible,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+956,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+957,[26-35] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,10002,probability
+958,[26-35] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+959,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+960,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+961,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+962,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+963,[36-55] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+964,[36-55] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+965,[36-55] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+966,[36-55] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+967,[36-55] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+968,[36-55] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+969,[36-55] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+970,[56-85] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+971,[56-85] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+972,[56-85] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+973,[56-85] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+974,[56-85] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+975,[56-85] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+976,[56-85] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+977,[56-85] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+978,[56-85] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+979,[85-...] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+980,[85-...] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+981,[85-...] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+982,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+983,[85-...] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+984,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+985,[85-...] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+986,[85-...] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+987,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+988,[11-25] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+989,[11-25] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+990,[11-25] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+991,[11-25] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+992,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+993,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+994,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+995,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+996,[36-55] ans,Cephalee,non Vomissement,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+997,[0-10] ans,Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite,probability
+998,[0-10] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+999,[0-10] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+1000,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,30004,probability
+1001,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1002,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1003,[56-85] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1004,[36-55] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1005,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+1006,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+1007,[85-...] ans,non Cephalee,Vomissement incoercible,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+1008,[85-...] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+1009,[56-85] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,10002,probability
+1010,[36-55] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1011,[11-25] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1012,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1013,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+1014,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+1015,[36-55] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+1016,[56-85] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+1017,[36-55] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+1018,[56-85] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+1019,[36-55] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+1020,[36-55] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1021,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+1022,[26-35] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+1023,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+1024,[0-10] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+1025,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+1026,[56-85] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+1027,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+1028,[11-25] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+1029,[11-25] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1030,[56-85] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+1031,[85-...] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+1032,[85-...] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+1033,[85-...] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+1034,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+1035,[85-...] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+1036,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+1037,[85-...] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+1038,[85-...] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1039,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+1040,[0-10] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+1041,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+1042,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+1043,[0-10] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+1044,[0-10] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1045,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1046,[0-10] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+1047,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+1048,[0-10] ans,Cephalee,non Vomissement,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1049,[11-25] ans,Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite,probability
+1050,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+1051,[11-25] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+1052,[11-25] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,30004,probability
+1053,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1054,[11-25] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1055,[11-25] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1056,[11-25] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1057,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+1058,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+1059,[26-35] ans,non Cephalee,Vomissement incoercible,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+1060,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+1061,[26-35] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,10002,probability
+1062,[26-35] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1063,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1064,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1065,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+1066,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+1067,[36-55] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+1068,[36-55] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+1069,[36-55] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+1070,[36-55] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+1071,[36-55] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+1072,[36-55] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1073,[36-55] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+1074,[56-85] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+1075,[56-85] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+1076,[56-85] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+1077,[56-85] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+1078,[56-85] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+1079,[56-85] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+1080,[56-85] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+1081,[85-...] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1082,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+1083,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+1084,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+1085,[26-35] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+1086,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+1087,[26-35] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+1088,[26-35] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+1089,[85-...] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+1090,[11-25] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1091,[26-35] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+1092,[0-10] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+1093,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+1094,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+1095,[0-10] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+1096,[0-10] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1097,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1098,[0-10] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+1099,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+1100,[0-10] ans,Cephalee,non Vomissement,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1101,[11-25] ans,Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite,probability
+1102,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+1103,[11-25] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+1104,[11-25] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,30004,probability
+1105,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1106,[11-25] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1107,[11-25] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1108,[11-25] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1109,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+1110,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+1111,[26-35] ans,non Cephalee,Vomissement incoercible,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+1112,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+1113,[26-35] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,10002,probability
+1114,[26-35] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1115,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1116,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1117,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+1118,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+1119,[36-55] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+1120,[36-55] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+1121,[36-55] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+1122,[36-55] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+1123,[36-55] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+1124,[36-55] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1125,[36-55] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+1126,[56-85] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+1127,[56-85] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+1128,[56-85] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+1129,[56-85] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+1130,[56-85] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+1131,[56-85] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+1132,[56-85] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+1133,[56-85] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1134,[56-85] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+1135,[85-...] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+1136,[85-...] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+1137,[85-...] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+1138,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+1139,[85-...] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+1140,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+1141,[85-...] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+1142,[85-...] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1143,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+1144,[11-25] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+1145,[11-25] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+1146,[11-25] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+1147,[11-25] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+1148,[26-35] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1149,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1150,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+1151,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+1152,[36-55] ans,Cephalee,non Vomissement,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1153,[0-10] ans,Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite,probability
+1154,[0-10] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+1155,[0-10] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+1156,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,30004,probability
+1157,[11-25] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1158,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1159,[56-85] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1160,[36-55] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1161,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,Crise Epilepsie,20004,probability
+1162,[26-35] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,10003,probability
+1163,[85-...] ans,non Cephalee,Vomissement incoercible,Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+1164,[85-...] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+1165,[56-85] ans,Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,10002,probability
+1166,[36-55] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1167,[11-25] ans,non Cephalee,Vomissement sans nausee,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1168,[26-35] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1169,[36-55] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+1170,[36-55] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+1171,[36-55] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+1172,[56-85] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+1173,[36-55] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+1174,[56-85] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+1175,[36-55] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+1176,[36-55] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1177,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+1178,[26-35] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+1179,[26-35] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+1180,[0-10] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+1181,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+1182,[56-85] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+1183,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+1184,[11-25] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+1185,[11-25] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1186,[56-85] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+1187,[85-...] ans,Cephalee,Vomissement sans nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,probability
+1188,[85-...] ans,Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+1189,[85-...] ans,Cephalee,Vomissement incoercible,Trouble Cognitif,non Crise Epilepsie,Deficit sensitif,probability
+1190,[85-...] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
+1191,[85-...] ans,non Cephalee,Vomissement sans nausee,Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,probability
+1192,[85-...] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,Crise Epilepsie,20003,probability
+1193,[85-...] ans,non Cephalee,Vomissement avec nausee,Trouble Cognitif,non Crise Epilepsie,Aphasie,no probability
+1194,[85-...] ans,Cephalee,non Vomissement,Trouble Cognitif,non Crise Epilepsie,non Deficit Neurologique,no probability
+1195,[85-...] ans,non Cephalee,non Vomissement,non Trouble Cognitif,Crise Epilepsie,non Deficit Neurologique,no probability
+1196,[0-10] ans,non Cephalee,Vomissement avec nausee,non Trouble Cognitif,non Crise Epilepsie,Deficit de la motricite,probability
+1197,[0-10] ans,non Cephalee,Vomissement incoercible,non Trouble Cognitif,Crise Epilepsie,Aphasie,probability
+1198,[0-10] ans,Cephalee,Vomissement sans nausee,non Trouble Cognitif,Crise Epilepsie,Deficit de la motricite Temporaire/Spatial,probability
