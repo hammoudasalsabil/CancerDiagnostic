@@ -2,10 +2,18 @@ from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.parsers import JSONParser
 from django.http.response import JsonResponse
-
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import MinMaxScaler
+import tensorflow as tf
+from keras.models import Sequential
+from keras.layers import Dense, Activation
+from sklearn.metrics import mean_absolute_error,mean_squared_error
+from tensorflow.keras.models import load_model
 from doctorapp.models import *
 from doctorapp.serializers import *
-
+from  algo.ModelClassificationData import create_model_brain
+from  algo.ModelClassificationData import create_model_breast
 from django.core.files.storage import default_storage
 
 # Create your views here.
@@ -99,7 +107,36 @@ def diagnostic_breast_1Api(request,id=0):
         diagnostic_serializer = Diagnostic_breast_1Serializer(data=diagnostic_data)
         if diagnostic_serializer.is_valid():
             diagnostic_serializer.save()
-            return JsonResponse("Added Successfully!!" , safe=False)
+            id_diag = diagnostic_serializer['IdDiagnostic'].value
+            model = load_model('C:/Users/Nour/CDApp/BackEnd/doctorapp/Breast_model.h5')
+            scaler = create_model_breast.scaler()
+            new_gem = [[diagnostic_serializer['Age'].value,
+                        diagnostic_serializer['Maternite'].value,
+                        diagnostic_serializer['Contraception'].value,
+                        diagnostic_serializer['Antecedent_F'].value,
+                        diagnostic_serializer['Antecedent'].value,
+                        diagnostic_serializer['Cycle'].value,
+                        diagnostic_serializer['IdSign'].value
+                        ]]
+            
+            new_gem = scaler.transform(new_gem)
+            result = model.predict(new_gem)
+            diagnostic_data_res= {}
+            diagnostic_data_res['IdDiagnostic'] = id_diag
+
+            if  0.5 < result < 1.0 :
+                diagnostic_data_res['Resultat'] = "There is a probability of having cancer"
+                diagnostic_data_res['Echo'] = True
+                diagnostic_data_res['CA15'] = True
+            else:
+                diagnostic_data_res['Resultat'] = "The probability of having cancer is low"
+                diagnostic_data_res['Echo'] = False
+                diagnostic_data_res['CA15'] = False
+                
+            result_serializer = Result_Dbreast_1Serializer(data=diagnostic_data_res)
+            if result_serializer.is_valid():
+                result_serializer.save()
+                return JsonResponse("Added Successfully!!" , safe=False)
         return JsonResponse("Failed to Add."+str(diagnostic_data) ,safe=False)
     
     elif request.method=='PUT':
@@ -175,7 +212,39 @@ def diagnostic_Brain_1Api(request,id=0):
         diagnostic_serializer = Diagnostic_Brain_1Serializer(data=diagnostic_data)
         if diagnostic_serializer.is_valid():
             diagnostic_serializer.save()
-            return JsonResponse("Added Successfully!!" , safe=False)
+
+            id_diag = diagnostic_serializer['dDiagnostic'].value
+            model = load_model('C:/Users/Nour/CDApp/BackEnd/doctorapp/Brain_model.h5')
+            scaler = create_model_brain.scaler()
+            new_gem = [[diagnostic_serializer['Age'].value,
+                        diagnostic_serializer['Cephalee'].value,
+                        diagnostic_serializer['Vomissement'].value,
+                        diagnostic_serializer['Trouble_Cognitifs'].value,
+                        diagnostic_serializer['CriseEpilepsie'].value,
+                        diagnostic_serializer['IdDeficitNeurologique'].value
+                        ]]
+            
+            new_gem = scaler.transform(new_gem)
+            result = model.predict(new_gem)
+            diagnostic_data_res= {}
+            diagnostic_data_res['IdDiagnostic'] = id_diag
+            print('++++++++++++result+++++++++++++++', result)
+            if  0.5 < result < 1.0 :
+                diagnostic_data_res['Resultat'] = "There is a probability of having cancer"
+                diagnostic_data_res['IRM'] = True
+            else:
+                diagnostic_data_res['Resultat'] = "The probability of having cancer is low"
+                diagnostic_data_res['IRM'] = False
+                
+        
+            print('++++++++++++diagnostic_data_res[Resultat]+++++++++++++++', diagnostic_data_res['Resultat'])
+
+            result_serializer = Result_DBrain_1Serializer(data=diagnostic_data_res)
+            print("---------result_serializer---------", result_serializer)
+            if result_serializer.is_valid():
+                result_serializer.save()
+                
+                return JsonResponse("Added Successfully!!" , safe=False)
         return JsonResponse("Failed to Add.",safe=False)
     
     elif request.method=='PUT':
