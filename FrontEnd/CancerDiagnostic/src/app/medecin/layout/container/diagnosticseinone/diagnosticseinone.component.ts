@@ -30,6 +30,7 @@ export class DiagnosticseinoneComponent implements OnInit {
   idPatient:number;
   PatientsList:ITblPatiens[];
   myDate: string;
+  idDiagSein:number;
   
   
   constructor( private service:SharedService, private authService:AuthService,private activatedRoute: ActivatedRoute, private router: Router ) {
@@ -78,13 +79,6 @@ export class DiagnosticseinoneComponent implements OnInit {
               console.log(this.tblSign)
             })
   }
-  resultat(){
-    if(this.result){
-      this.result = !this.result
-    }
-    else
-    this.result = !this.result
-  }
 
   addDiag(){
     this.diagbreast = this.addDiagForm.value;
@@ -96,6 +90,7 @@ export class DiagnosticseinoneComponent implements OnInit {
 
     this.service.addDiagnosticBreastOne(this.diagbreast).subscribe(res=>{
       alert(res.toString());
+      
       if(this.result){
         this.result = !this.result
       }

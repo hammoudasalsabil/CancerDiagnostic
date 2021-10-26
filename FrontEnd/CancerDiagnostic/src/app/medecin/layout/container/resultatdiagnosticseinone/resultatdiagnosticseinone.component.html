@@ -1,19 +1,44 @@
 <div class="res">
-    <form [formGroup]="addResForm" (ngSubmit)="accept()">
+    <form [formGroup]="addpatientForm" (ngSubmit)="accept()">
         <fieldset>
-            <h2 class="colorBlue fonttext">Result</h2>
+            <h2 class="colorBlue fonttext d-flex justify-content-center">Result  {{idDiagBreast}}</h2>
             <br>
             <div class="form-group">
-                <label class="fonttext">Result</label>
-                <select class="form-control" formControlName = "Resultat">
-                    <!--
-                        <option *ngFor="let sign of tblSign" [ngValue]="sign.IdSign">
-                         {{sign.Sign}}
-                    </option>
-                     -->
-                     <option [ngValue]="null" selected></option>
-                    <option [ngValue]="0">Pas encore</option>
-                </select>
+                <div class="form-group row">
+    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg fonttext" hidden>CA15</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control form-control-lg"  formControlName  = "CA15" name="lastname" required hidden>
+    </div>
+  </div>
+  <br>
+    <label class="fonttext">Resultat {{tblResultBreastOne.Resultat}}</label>
+        <select class="form-control" formControlName = "Resultat">      
+            <option selected> {{tblResultBreastOne.Resultat}}</option>
+            <option >Pas encore</option>
+            <option >encore</option>
+        </select>
+  <br>
+
+    <label class="fonttext">Echo_Mammographie</label>
+        <select class="form-control" formControlName = "Echo">      
+            <option selected> {{tblResultBreastOne.Echo}}</option>
+            <option >Pas encore</option>
+            <option >encore</option>
+        </select>
+    
+  <br>
+    <label class="fonttext">CA15</label>
+        <select class="form-control" formControlName = "CA15">      
+            <option selected> {{tblResultBreastOne.CA15}}</option>
+            <option >Pas encore</option>
+            <option >encore</option>
+        </select>
+  <br>
+
+  <br>
+
+    <div class="form"><button type="submit" class="buttonDiag buttonAccepter" (click)="accept()" >Accept</button></div>
+                <!-- *******
                 
                 <label class="fonttext">Echo_Mammographie</label>
                 <select class="form-control" formControlName = "Echo">
@@ -26,9 +51,9 @@
                     <option [ngValue]="null" selected></option>
                     <option [ngValue]="0">Pas encore</option>
                 </select>
+                -->
             </div>
         </fieldset>
     </form>
-    <div class="form"><button class="buttonDiag buttonAccepter" (click)="accept()" >Accept</button></div>
     
 </div>
