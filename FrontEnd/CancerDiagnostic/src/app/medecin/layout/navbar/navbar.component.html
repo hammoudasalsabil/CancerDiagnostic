@@ -8,28 +8,60 @@
 
     <div class="spacer">
      </div>
-      <!-- drop-->
+    <ul>
+      
+          <button class=" btn notification2" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false" (click)="clickEventNotification()"
+                  data-bs-toggle="collapse">
+                  <i class="fa fa-bell-o fa-lg" aria-hidden="true"></i>
+                  <span class="badge" *ngIf="notvue">{{nbrAlert}}</span>
+          </button>
+                    <!-- bloc menu déroulant -->
+          <ul class="dropdown-menu itemdropdown sidbar btnDrop" aria-labelledby="navbarDropdownMenuLink"
+              [ngClass]="Notification ? 'hide' : 'show'">
+              <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col"> <span class="text-center alert">Alert Diagnostic</span></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr ngbDropdownItem *ngFor="let alert of tblAlertNew">
+                      <td class="alerttext">{{alert.Text}}</td>
+                      <td class="alerttext">{{alert.Date}}</td>
+                    </tr>
+                  </tbody>
+              </table>
+          </ul>
+      
+    </ul>
+      <!-- drop
       <div ngbDropdown class="btn-group">
         <button ngbDropdownToggle class=" btn notification">
       <i class="fa fa-bell-o fa-lg" aria-hidden="true"></i>
         <span class="badge" *ngIf="notvue">{{nbrAlert}}</span>
       </button>
-        <div ngbDropdownMenu class="dropdown-menu dropdown-menu-right">
-        <!-- debut tab-->
-        <table class="table">
-  <thead>
-    <tr>
-      <th scope="col"> <span class="text-center alert">Alert Diagnostic</span></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr ngbDropdownItem *ngFor="let alert of alertlist">
-      <td class="alerttext">{{alert.Text}}</td>
-      <td class="alerttext">{{alert.Date}}</td>
+        <div ngbDropdownMenu class="drop" >
+        
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col"> <span class="text-center alert">Alert Diagnostic</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ngbDropdownItem *ngFor="let alert of alertlist">
+                <td class="alerttext">{{alert.Text}}</td>
+                <td class="alerttext">{{alert.Date}}</td>
+                
+              </tr>
+            </tbody>
+          </table>
+          
+        </div>
+      </div>
+      -->
       
-    </tr>
-  </tbody>
-</table>
         <!-- fin tab-->
        
         <!-- 
@@ -38,8 +70,6 @@
           <button ngbDropdownItem class="dropdown-item" type="button">Something else here</button>
         -->
          
-        </div>
-      </div>
       <!-- drop-->
       <button type="submit"
       class="btn myButton btn-sm"   style="margin-left:200;"

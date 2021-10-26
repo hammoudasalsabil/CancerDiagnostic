@@ -4,7 +4,7 @@ export interface singupModel{
     name: string,
     password: string,
     is_superuser: string,
-    nb_alertes: string,
+    nb_alertes: number,
     nb_patients: number
 }
 
@@ -15,7 +15,7 @@ export interface AuthResData{
     username: string,
     token?: string,
     is_superuser: string,
-    nb_alertes: string,
+    nb_alertes: number,
     nb_patients: number
 }
 
@@ -23,7 +23,7 @@ export interface loginModel{
     email: string,
     password: string,
     is_superuser: string,
-    nb_alertes: string,
+    nb_alertes: number,
     nb_patients: number
 }
 
@@ -35,7 +35,7 @@ export class User{
         public name: string,
         public token: string,
         public is_superuser: string,
-        public nb_alertes: string,
+        public nb_alertes: number,
         public nb_patients: number
     ){}
     

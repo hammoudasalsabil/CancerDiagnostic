@@ -6,6 +6,8 @@ import { Router } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { SharedService } from 'src/app/services/shared.service';
 import { ITblAlerts, TblAlerts } from 'src/app/model/alert.model';
+import { ThisReceiver } from '@angular/compiler';
+import { ITblUser } from 'src/app/model/user.model';
 
 @Component({
   selector: 'app-navbar',
@@ -15,7 +17,8 @@ import { ITblAlerts, TblAlerts } from 'src/app/model/alert.model';
 export class NavbarComponent implements OnInit, OnDestroy {
   isAuthenticated:boolean = false;
   private userSub: Subscription;
-  alertlist:any= [];
+  alertlist:ITblAlerts[];
+  tblAlertNew:any=[];
   nbrDiagBreastOne:number;
   nbrDiagBreastTwo:number;
   nbrDiagBrainOne:number;
@@ -24,15 +27,22 @@ export class NavbarComponent implements OnInit, OnDestroy {
   nbrDiagTotal:number;
   thblAlert:ITblAlerts={};
   nbrAlert:number;
+  Notification:boolean = false;
+  id:number;
+  tbluser:ITblUser[];
+  user: User;
 
   constructor(private authService: AuthService, private router: Router,private Service: SharedService ) { }
 
   ngOnInit(): void {
     this.userSub = this.authService.user.subscribe((user)=>{
       this.isAuthenticated =!user? false: true;
+      this.user = user
     })
     this.getAlert();
     this.getNbrDiag();
+    this.clickEventNotification();
+    
   }
   ngOnDestroy(){
     this.userSub.unsubscribe();
@@ -44,57 +54,48 @@ export class NavbarComponent implements OnInit, OnDestroy {
   getAlert(){
     this.Service.getAlert().subscribe(data=>{
       this.alertlist=data;
-      this.nbrAlert=data.length;
+       //this.nbrAlert=data.length;
      
 
       console.log("alertlist lawla = ",this.alertlist)
+      
     })
+  }
+  
+  clickEventNotification(){
+    this.nbrAlert = 0;
+    this.Notification = !this.Notification;
+    
+
   }
   getNbrDiag(){
-  this.nbrDiagBreastOne=0;
-  this.nbrDiagBreastTwo=0;
-  this.nbrDiagBrainOne=0;
-  this.nbrDiagBrainTow=0;
-  this.nbrDiagTotal=0;
-
-  this.Service.getDiagnosticBreastOne().subscribe(data=>{
-    this.nbrDiagBreastOne=data.length;
-    console.log("nbrDiagBreastOne = ",this.nbrDiagBreastOne)
-
-    this.Service.getDiagnosticBrainOne().subscribe(data=>{
-      this.nbrDiagBrainOne=data.length;
-      console.log("nbrDiagBrainOne = ",this.nbrDiagBrainOne);
-
-      this.Service.getDiagnosticBreastTwo().subscribe(data=>{
-        this.nbrDiagBreastTwo=data.length;
-        console.log("nbrDiagBreastTwo = ",this.nbrDiagBreastTwo)
-
-        this.Service.getDiagnosticBrainTow().subscribe(data=>{
-          this.nbrDiagBrainTow=data.length;
-          console.log("nbrDiagBrainTow = ",this.nbrDiagBrainTow)
-          //total:
-          this.nbrDiagTotal=this.nbrDiagBreastOne + this.nbrDiagBrainOne + this.nbrDiagBreastTwo +this.nbrDiagBrainTow;
-          console.log("nbrDiagTotal = ",this.nbrDiagTotal);
-         
-          if(this.nbrAlert == 0){
-              this.notvue = false;
-            }
-
-          //   this.thblAlert.Text=  "abdgffggdfdsszeqdgrts";
-          //   this.thblAlert.Date="2021-08-11";
-          //   this.Service.addAlert(this.thblAlert).subscribe(res=>{
-          //     console.log("alerts==",this.thblAlert)
-          //   });
-  
-          //}
-        })
-    
+    this.Service.getUserList().subscribe(element=>{
+      this.tbluser=element;
       
-      })
+      console.log("this.tbluser =",this.tbluser)
+      this.tbluser.forEach((element, index)=>{
+        if(element["id"] == this.user.id){
+          
+          console.log("this.user.id =",this.user.id)
+          this.id = element.nb_alertes;
+          console.log("this.id =",this.id)
+          this.Service.getAlert().subscribe(res=>{
+            this.alertlist = res;
+            this.alertlist.forEach((element, index)=>{
+              if(element["IdAlerte"] < this.id) delete this.alertlist[index];
+      
+              if(element["IdAlerte"] > this.id) {
+                this.tblAlertNew.push(this.alertlist[index]);
+                console.log("this.tblAlertNew = ", this.tblAlertNew)
+                this.nbrAlert=this.tblAlertNew.length;
+                console.log("this.nbrAlert = ", this.nbrAlert)
+              } 
+           });
+          })
+        }
+     });
     })
-  })
-  }
 
-  
+  }
 
 }

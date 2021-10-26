@@ -67,6 +67,9 @@ export class SharedService {
   getResultBreastTow():Observable<any[]>{
     return this.http.get<any[]>(this.APIUrl + 'doctor/Result_Diagnostic_Breast_2/');
   }
+  getRules():Observable<any[]>{
+    return this.http.get<any[]>(this.APIUrl + 'doctor/Règles/');
+  }
 
   //Add
   addAlert(val:any){

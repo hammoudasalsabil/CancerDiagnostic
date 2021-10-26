@@ -1,5 +1,20 @@
 <div class="rules">
-<div class="alert alert-danger" role="alert">
-  This is a danger alert—check it out!
-</div>
+<table>
+  <thead>
+    <tr>
+       <th> <span class="text-center alert"></span></th>
+       <th> <span class="text-center alert"></span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let alert of tblRegles">
+    <div class="alert alert-danger" role="alert" (click)="pdf()">
+        <td>{{alert.Text}}</td>
+        <td>{{alert.Date}}</td>
+    </div>
+      
+      
+    </tr>
+  </tbody>
+</table>
 </div>

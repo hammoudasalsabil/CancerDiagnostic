@@ -26,6 +26,7 @@
     transition: 256ms all;
     font-weight: bold;
     color: white;
+    margin-right: 22px;
   }
   .myButton:hover {
     color: white;
@@ -74,4 +75,39 @@
 }
 td{
   border:none;
+}
+.drop{
+  left: -140px !important;
+}
+.btnDrop{
+  
+  right: 0px;
+
+}
+
+.notification2 {
+  font-family: serif;
+  color: white;
+  text-decoration: none;
+  padding: 22px 38px;
+  
+  margin-top: 16px;
+
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification2:hover {
+  color: rgba(226, 31, 31, 0.589);
+}
+
+.notification2 .badge {
+  position: absolute;
+  top: 11px;
+  right: 16px;
+  padding: 4px 8px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
 }
