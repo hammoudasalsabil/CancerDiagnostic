@@ -1,3 +1,4 @@
+from re import A
 from django.shortcuts import render
 from rest_framework.response import Response
 from rest_framework.views import APIView
@@ -8,4 +9,9 @@ class IndexView(APIView):
         content = {
             'wms': 'Welcome the Doctorssss :) '
         }
+
+        
+
         return Response(content)
+
+

@@ -4,6 +4,7 @@ from rest_framework.authtoken.views import ObtainAuthToken
 from rest_framework.authtoken.models import Token
 from rest_framework.response import Response
 
+
 from accounts import serializers
 
 class CreateUserView(generics.CreateAPIView):
@@ -17,7 +18,10 @@ class LoginView(ObtainAuthToken):
         serializers = self.serializer_class(data=request.data,context={'request':request})
         serializers.is_valid(raise_exception=True)
         user = serializers.validated_data['user']
+        
         token,created = Token.objects.get_or_create(user=user)
+        
+
         return Response({
             'token': token.key,
             'username': user.username,
@@ -28,3 +32,4 @@ class LoginView(ObtainAuthToken):
             'nb_patients' : user.nb_patients,
             'is_superuser': user.is_superuser
         })
+        

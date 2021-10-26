@@ -20,7 +20,7 @@ export class NavbarComponent implements OnInit, OnDestroy {
   nbrDiagBreastTwo:number;
   nbrDiagBrainOne:number;
   nbrDiagBrainTow:number;
-
+  notvue: Boolean = true;
   nbrDiagTotal:number;
   thblAlert:ITblAlerts={};
   nbrAlert:number;
@@ -45,6 +45,8 @@ export class NavbarComponent implements OnInit, OnDestroy {
     this.Service.getAlert().subscribe(data=>{
       this.alertlist=data;
       this.nbrAlert=data.length;
+     
+
       console.log("alertlist lawla = ",this.alertlist)
     })
   }
@@ -74,15 +76,17 @@ export class NavbarComponent implements OnInit, OnDestroy {
           this.nbrDiagTotal=this.nbrDiagBreastOne + this.nbrDiagBrainOne + this.nbrDiagBreastTwo +this.nbrDiagBrainTow;
           console.log("nbrDiagTotal = ",this.nbrDiagTotal);
          
-          if(this.nbrDiagTotal > 15){
+          if(this.nbrAlert == 0){
+              this.notvue = false;
+            }
 
-            this.thblAlert.Text=  "abdgffggdfdsszeqdgrts";
-            this.thblAlert.Date="2021-08-11";
-            this.Service.addAlert(this.thblAlert).subscribe(res=>{
-              console.log("alerts==",this.thblAlert)
-            });
+          //   this.thblAlert.Text=  "abdgffggdfdsszeqdgrts";
+          //   this.thblAlert.Date="2021-08-11";
+          //   this.Service.addAlert(this.thblAlert).subscribe(res=>{
+          //     console.log("alerts==",this.thblAlert)
+          //   });
   
-          }
+          //}
         })
     
       

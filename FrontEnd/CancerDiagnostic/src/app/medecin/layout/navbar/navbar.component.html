@@ -12,7 +12,7 @@
       <div ngbDropdown class="btn-group">
         <button ngbDropdownToggle class=" btn notification">
       <i class="fa fa-bell-o fa-lg" aria-hidden="true"></i>
-        <span class="badge">{{nbrAlert}}</span>
+        <span class="badge" *ngIf="notvue">{{nbrAlert}}</span>
       </button>
         <div ngbDropdownMenu class="dropdown-menu dropdown-menu-right">
         <!-- debut tab-->

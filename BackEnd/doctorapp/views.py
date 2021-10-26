@@ -12,6 +12,7 @@ from sklearn.metrics import mean_absolute_error,mean_squared_error
 from tensorflow.keras.models import load_model
 from doctorapp.models import *
 from doctorapp.serializers import *
+from algo import apriori
 from  algo.ModelClassificationData import create_model_brain
 from  algo.ModelClassificationData import create_model_breast
 from django.core.files.storage import default_storage
@@ -137,6 +138,33 @@ def diagnostic_breast_1Api(request,id=0):
             if result_serializer.is_valid():
                 result_serializer.save()
                 return JsonResponse("Added Successfully!!" , safe=False)
+
+        diagnosticsb = Diagnostic_breast_1.objects.all()
+        diagnosticsb_serializer = Diagnostic_breast_1Serializer(diagnosticsb, many=True)
+        
+        diagnosticsb1 = Diagnostic_Brain_1.objects.all()
+        diagnosticsb1_serializer = Diagnostic_Brain_1Serializer(diagnosticsb1, many=True)
+
+        nbdiag = len(diagnosticsb_serializer.data) + len(diagnosticsb1_serializer.data)
+        print("------------------nbdiag-----------", nbdiag)
+        if (nbdiag % 2 == 0):
+            Alert = {}
+            Regle = {}
+
+            Alert['Text'] = "There is a modification saved"
+            Regle['Text'] = "Clik here to open file"
+
+            alerte_serializer = AlertesSerializer(data=Alert)
+            if alerte_serializer.is_valid():
+                alerte_serializer.save()
+
+            regle_serializer = ReglesSerializer(data=Regle)
+            if regle_serializer.is_valid():
+                regle_serializer.save()
+            id = regle_serializer['IdRegle'].value
+            print('id form vieww --------', id)
+            apriori.apriory(id)
+
         return JsonResponse("Failed to Add."+str(diagnostic_data) ,safe=False)
     
     elif request.method=='PUT':
@@ -228,7 +256,7 @@ def diagnostic_Brain_1Api(request,id=0):
             result = model.predict(new_gem)
             diagnostic_data_res= {}
             diagnostic_data_res['IdDiagnostic'] = id_diag
-            print('++++++++++++result+++++++++++++++', result)
+
             if  0.5 < result < 1.0 :
                 diagnostic_data_res['Resultat'] = "There is a probability of having cancer"
                 diagnostic_data_res['IRM'] = True
@@ -237,14 +265,38 @@ def diagnostic_Brain_1Api(request,id=0):
                 diagnostic_data_res['IRM'] = False
                 
         
-            print('++++++++++++diagnostic_data_res[Resultat]+++++++++++++++', diagnostic_data_res['Resultat'])
 
             result_serializer = Result_DBrain_1Serializer(data=diagnostic_data_res)
-            print("---------result_serializer---------", result_serializer)
             if result_serializer.is_valid():
                 result_serializer.save()
                 
                 return JsonResponse("Added Successfully!!" , safe=False)
+        diagnosticsb = Diagnostic_breast_1.objects.all()
+        diagnosticsb_serializer = Diagnostic_breast_1Serializer(diagnosticsb, many=True)
+        
+        diagnosticsb1 = Diagnostic_Brain_1.objects.all()
+        diagnosticsb1_serializer = Diagnostic_Brain_1Serializer(diagnosticsb1, many=True)
+
+        nbdiag = len(diagnosticsb_serializer.data) + len(diagnosticsb1_serializer.data)
+        print("------------------nbdiag-----------", nbdiag)
+        if (nbdiag % 2 == 0):
+            Alert = {}
+            Regle = {}
+
+            Alert['Text'] = "There is a modification saved"
+            Regle['Text'] = "Clik here to open file"
+
+            alerte_serializer = AlertesSerializer(data=Alert)
+            if alerte_serializer.is_valid():
+                alerte_serializer.save()
+
+            regle_serializer = ReglesSerializer(data=Regle)
+            if regle_serializer.is_valid():
+                regle_serializer.save()
+            id = regle_serializer['IdRegle'].value
+            print('id form vieww --------', id)
+            apriori.apriory(id)
+
         return JsonResponse("Failed to Add.",safe=False)
     
     elif request.method=='PUT':
