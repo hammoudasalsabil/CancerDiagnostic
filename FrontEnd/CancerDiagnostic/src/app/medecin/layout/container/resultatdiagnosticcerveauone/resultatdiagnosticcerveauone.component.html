@@ -46,17 +46,18 @@
   <label class="fonttext">Resultat</label>
         <select class="form-control" formControlName = "Resultat">      
             <option selected> {{tblResultdiagcerveauone.Resultat}}</option>
-            <option >Pas encore</option>
-            <option >encore</option>
+            <option >There is a probability of having cancer</option>
+            <option >The probability of having cancer is low</option>
         </select>
 
   <br>
 
     <label class="fonttext">IRM</label>
         <select class="form-control" formControlName = "IRM">      
-            <option selected> {{tblResultdiagcerveauone.IRM}}</option>
-            <option >Pas encore</option>
-            <option >encore</option>
+            <option selected *ngIf=tblResultdiagcerveauone.IRM> Necessary</option>
+            <option selected *ngIf!=tblResultdiagcerveauone.IRM> Not necessary</option>
+            <option >Not necessary</option>
+            <option >Necessary</option>
         </select>
 
   <br>
